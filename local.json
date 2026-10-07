@@ -1,0 +1,527 @@
+{
+ "asof": "2026-10-07",
+ "window": [
+  "2026-09-27",
+  "2026-11-04"
+ ],
+ "brevard_meetings": [
+  {
+   "county": "Brevard",
+   "body": "Board of Adjustment",
+   "date": "2026-10-14",
+   "time": "1:30 PM",
+   "where": "Commission Room",
+   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1426878&GUID=D00BACB3-852E-48CE-9658-D23F43E43D12&Options=info|&Search=",
+   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1426878&GUID=D00BACB3-852E-48CE-9658-D23F43E43D12",
+   "items": [
+    {
+     "no": "H.1.",
+     "type": "Public Hearing",
+     "title": "Smith Tima requests three variances of Chapter 62, Article VI, Brevard County Code, for the lot width, the lot depth, and the lot size in a TR-1 zoning classification. (26V00054) (Tax Account 2317179) (District 1) THIS ITEM WAS TABLED AT THE 9-16-2026 BOA MEETING",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256091&GUID=BEBFB875-32A0-407C-8237-3C05FA5FD076&Options=&Search="
+    },
+    {
+     "no": "H.2.",
+     "type": "Public Hearing",
+     "title": "Gail Diffendorfer Revocable Trust (Gail Diffendorfer) requests a variance of Chapter 62, Article VI, Brevard County Code, for an accessory structure in an RU-1-9 zoning classification. (26V00059) (Tax Account 2320224) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256088&GUID=695CBF66-B319-4677-8565-75DC4EB8F3A5&Options=&Search="
+    },
+    {
+     "no": "H.3.",
+     "type": "Public Hearing",
+     "title": "Afimi Corp. Inc. and Cecil Miller (Russell Fasnacht) request a variance of Chapter 62, Article VI, Brevard County Code, for a principal structure in a TR-1 zoning classification. (26V00060) (Tax Account 2103142) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256089&GUID=DB8E9C55-2094-4B58-8168-76C378FC6A45&Options=&Search="
+    },
+    {
+     "no": "H.4.",
+     "type": "Public Hearing",
+     "title": "Baratta Family Trust (John Campbell) requests two variances of Chapter 62, Article VI, Brevard County Code, for a swimming pool screen enclosure and the principal building in an RU-1-11 zoning classification. (26V00062) (Tax Account 2431991) (District 2)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256090&GUID=B70953EB-052D-44F1-B749-B7519F8F3A3E&Options=&Search="
+    }
+   ]
+  },
+  {
+   "county": "Brevard",
+   "body": "Planning and Zoning Board / Local Planning Agency",
+   "date": "2026-10-12",
+   "time": "3:00 PM",
+   "where": "Commission Room",
+   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1408793&GUID=220FFB7D-0A63-471E-9E84-7D2DEB5EAF67&Options=info|&Search=",
+   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1408793&GUID=220FFB7D-0A63-471E-9E84-7D2DEB5EAF67",
+   "items": [
+    {
+     "no": "H.1.",
+     "type": "Public Hearing",
+     "title": "David S. Minnick and Norman D. White request a zoning classification change from RU-1-13 to AU with a BDP (26Z00035) (Tax Account 2103946) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8254836&GUID=E2F23740-5B81-4968-AEBF-324379023C14&Options=&Search="
+    },
+    {
+     "no": "H.2.",
+     "type": "Public Hearing",
+     "title": "Thankachan and Siji Joseph (Greg Jean-Denis) request a zoning classification change from BU-1 with a BDP to BU-1 and removal of the existing BDP and addition of a new BDP (26Z00030) (Tax Account 2411235) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8254837&GUID=5A951D3E-0B10-4111-AFD9-EFE785ED33E1&Options=&Search="
+    }
+   ]
+  },
+  {
+   "county": "Brevard",
+   "body": "Transportation Planning Office",
+   "date": "2026-10-08",
+   "time": "1:30 PM",
+   "where": "1100 Rockledge Blvd, Rockledge",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
+  {
+   "county": "Brevard",
+   "body": "Brevard County Board of County Commissioners",
+   "date": "2026-10-01",
+   "time": "5:00 PM",
+   "where": "Commission Chambers Zoning",
+   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1350560&GUID=0BB36ACA-A670-463C-ABAD-A3FE4702F582&Options=info|&Search=",
+   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1350560&GUID=0BB36ACA-A670-463C-ABAD-A3FE4702F582",
+   "items": [
+    {
+     "no": "H.1.",
+     "type": "Public Hearing",
+     "title": "Thankachan and Siji Joseph (Greg Jean-Denis) request a zoning classification change from BU-1 with a BDP to BU-1 and removal of the existing BDP and addition of a new BDP (26Z00030) (Tax Account 2411235) (District 1) - This item has been continued to the October 12, 2026, Planning and Zoning Board M",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236478&GUID=43F2601C-35D8-432F-BF12-B251DB2FD91C&Options=&Search="
+    },
+    {
+     "no": "H.2.",
+     "type": "Public Hearing",
+     "title": "Cirrus Properties LLC (David Bassford) requests a change from BU-2 (Retail, Warehousing and Wholesale Commercial) with a BDP to BU-2 with an amendment to the existing BDP. (26Z00011) (Tax Account 2602467, 2602464, 2602466, 2602468) (District 4)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236500&GUID=DDD5A75E-847F-459F-A837-824C03B27D8E&Options=&Search="
+    },
+    {
+     "no": "H.4.",
+     "type": "Public Hearing",
+     "title": "Cypress MHP, LLC requests a zoning classification change from TR-1 and TR-3 to all TR-3 (26Z00025) (Tax Account 2408070, 2408071) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236476&GUID=BAE61C8E-B35F-495A-A5C1-BCB20464B59A&Options=&Search="
+    },
+    {
+     "no": "H.5.",
+     "type": "Public Hearing",
+     "title": "Iosif and Lyudmila Tirgoala (Kim Rezanka) are requesting a Small-Scale Comprehensive Plan Amendment (26S.08) to change the Future Land Use designation from RES 4 to CC. (26SS00008) (Tax Account 2400693, 2400692) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236501&GUID=ACAFC2DB-DDFA-4BAE-8D32-BCB91185DB35&Options=&Search="
+    },
+    {
+     "no": "H.6.",
+     "type": "Public Hearing",
+     "title": "Iosif and Lyudmila Tirgoala (Kim Rezanka) are requesting a zoning classification change from GU to BU-2. (26Z00032) (Tax Account 2400693, 2400692) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236516&GUID=BA54A520-F8AA-4797-8ECF-BE6B09743868&Options=&Search="
+    },
+    {
+     "no": "H.7.",
+     "type": "Public Hearing",
+     "title": "Defender Homes Airway Heights LLC (Kim Rezanka) requests a zoning classification change from RR-1 to RU-1-11 with a BDP. (26Z00034) (Tax Account 2702763) (District 5)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236477&GUID=6971D0CC-EEB6-4043-953E-16B71375710D&Options=&Search="
+    }
+   ]
+  }
+ ],
+ "tampa_news": [],
+ "tampa_notices": [
+  {
+   "city": "Tampa",
+   "title": "Notice of Public Meeting City Council Regular Agenda",
+   "url": "https://www.tampa.gov/document/notice-public-meeting-10-01-2026-city-council-regular-agenda-195471",
+   "date": "2026-10-01",
+   "kind": "council notice"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of CRA Regular Meeting",
+   "url": "https://www.tampa.gov/document/notice-cra-regular-meeting-10-08-2026-195841",
+   "date": "2026-10-08",
+   "kind": "council notice"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of City Council QJ Evening Meeting",
+   "url": "https://www.tampa.gov/document/notice-city-council-qj-evening-meeting-10-08-2026-195846",
+   "date": "2026-10-08",
+   "kind": "quasi-judicial (zoning) hearing"
+  }
+ ],
+ "hillsborough_links": [
+  {
+   "county": "Hillsborough",
+   "title": "Land Use Meeting agendas (eAgenda search)",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/search?F_MeetingType=Land%20Use%20Meeting&F_DocType=Agenda"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Public Hearing agendas (eAgenda search)",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/search?F_MeetingType=Public%20Hearing&F_DocType=Agenda"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agendas, recaps and minutes (hcfl.gov)",
+   "url": "https://www.hcfl.gov/government/meeting-information/agendas-recaps-and-minutes"
+  }
+ ],
+ "hillsborough_items": [
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-10-08",
+   "date": "2026-10-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2R5WQ8"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - Budget \u00b7 2026-09-24",
+   "date": "2026-09-24",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2R5YWQ"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CIP \u00b7 2026-09-24",
+   "date": "2026-09-24",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ8W4R72"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - Budget \u00b7 2026-09-10",
+   "date": "2026-09-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJLRWYQL"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-08-13",
+   "date": "2026-08-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ6LYYQ1"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Public Hearing \u00b7 2026-07-29",
+   "date": "2026-07-29",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2R577W"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-07-16",
+   "date": "2026-07-16",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJYQ12Y5"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-06-11",
+   "date": "2026-06-11",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ7QW8Q1"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-05-14",
+   "date": "2026-05-14",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ3Y7QY2"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-04-09",
+   "date": "2026-04-09",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ1R4W51"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-03-26",
+   "date": "2026-03-26",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJLRWRLY"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-02-12",
+   "date": "2026-02-12",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJQR8142"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2026-01-15",
+   "date": "2026-01-15",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJR781L6"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC 2nd Public Hearing - LDC \u00b7 2026-01-15",
+   "date": "2026-01-15",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJYQ68RR"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - LDC \u00b7 2025-11-13",
+   "date": "2025-11-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJQR24L7"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2025-11-13",
+   "date": "2025-11-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2R7Y6L"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2025-10-16",
+   "date": "2025-10-16",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ6L3Y4Q"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Public Hearing \u00b7 2025-10-16",
+   "date": "2025-10-16",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJR78YL8"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CIP \u00b7 2025-09-18",
+   "date": "2025-09-18",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ6L33WW"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - Budget \u00b7 2025-09-18",
+   "date": "2025-09-18",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJLR3361"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - Budget \u00b7 2025-09-04",
+   "date": "2025-09-04",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ1R52RL"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2025-08-14",
+   "date": "2025-08-14",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2R7Q7R"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC 2nd Public Hearing - LDC \u00b7 2025-08-12",
+   "date": "2025-08-12",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ8W3L3Y"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - Budget Reconciliation \u00b7 2025-07-30",
+   "date": "2025-07-30",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ6L3W28"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC 1st Public Hearing - LDC \u00b7 2025-07-22",
+   "date": "2025-07-22",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ8W3Y27"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - Hospital Directed Payment Program \u00b7 2025-07-01",
+   "date": "2025-07-01",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ3Y2YL6"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2025-06-12",
+   "date": "2025-06-12",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ8W3QLQ"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2025-05-08",
+   "date": "2025-05-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJYQ28Q3"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC 2nd Public Hearing - LDC \u00b7 2025-05-08",
+   "date": "2025-05-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJWL57LL"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - BOCC Public Hearing - CPA \u00b7 2025-04-10",
+   "date": "2025-04-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ567LQW"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-11-09",
+   "date": "2021-11-09",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJLR65WR"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-09-08",
+   "date": "2021-09-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ3YY138"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-08-10",
+   "date": "2021-08-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ3YY267"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-07-20",
+   "date": "2021-07-20",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ477581"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-06-08",
+   "date": "2021-06-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ3YY543"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-05-11",
+   "date": "2021-05-11",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ1RRQR5"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-04-13",
+   "date": "2021-04-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJLR576R"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-03-09",
+   "date": "2021-03-09",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJQR1768"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-02-09",
+   "date": "2021-02-09",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJLR538W"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2021-01-12",
+   "date": "2021-01-12",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2RL6YR"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda- Land Use \u00b7 2020-12-08",
+   "date": "2020-12-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ5R3QW"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-11-10",
+   "date": "2020-11-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ4L32Y"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-10-13",
+   "date": "2020-10-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ55RW2"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-09-08",
+   "date": "2020-09-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJY87R7"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-08-11",
+   "date": "2020-08-11",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ67564"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-07-21",
+   "date": "2020-07-21",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ3RY78"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-06-09",
+   "date": "2020-06-09",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ41488"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda Land Use \u00b7 2020-03-10",
+   "date": "2020-03-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ415Q4"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-02-11",
+   "date": "2020-02-11",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ7566W"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2020-01-13",
+   "date": "2020-01-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJYLR34"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2019-12-10",
+   "date": "2019-12-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJL883R"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2019-11-12",
+   "date": "2019-11-12",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ8R47R"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda Land Use \u00b7 2019-10-08",
+   "date": "2019-10-08",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJQ4YLR"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2019-09-10",
+   "date": "2019-09-10",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ18R12"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2019-08-13",
+   "date": "2019-08-13",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ85172"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2019-07-23",
+   "date": "2019-07-23",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ5W34L"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda Land Use \u00b7 2019-06-11",
+   "date": "2019-06-11",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ74WY4"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda - Land Use \u00b7 2019-05-07",
+   "date": "2019-05-07",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ224W3"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda-Land Use \u00b7 2019-04-09",
+   "date": "2019-04-09",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ5W18R"
+  },
+  {
+   "county": "Hillsborough",
+   "title": "Agenda for Land Use \u00b7 2019-03-12",
+   "date": "2019-03-12",
+   "url": "https://eagenda.hcfl.gov/portal/PTL29560/open/OBJ2533L"
+  }
+ ]
+}
