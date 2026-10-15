@@ -1,0 +1,166 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Daily News Brief 2026-10-08</title><meta name="description" content="Daily news brief built from full article and newsletter text.">
+<style>@font-face{font-family:"Equity A";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/EquityA-Regular.otf") format("opentype")}
+@font-face{font-family:"Equity A";font-weight:400;font-style:italic;font-display:swap;src:url("fonts/EquityA-Italic.otf") format("opentype")}
+@font-face{font-family:"Equity A";font-weight:700;font-style:normal;font-display:swap;src:url("fonts/EquityA-Bold.otf") format("opentype")}
+@font-face{font-family:"Equity A";font-weight:700;font-style:italic;font-display:swap;src:url("fonts/EquityA-BoldItalic.otf") format("opentype")}
+@font-face{font-family:"Equity A Caps";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/EquityACaps-Regular.otf") format("opentype")}
+@font-face{font-family:"Equity A Caps";font-weight:700;font-style:normal;font-display:swap;src:url("fonts/EquityACaps-Bold.otf") format("opentype")}
+
+/* Layout: broadsheet front page on white — ticker strip, centred wordmark, black-rule section bar, 2+1 front grid (lead + "Latest" list), then 3-across story grids per theme. */
+:root{--paper:#ffffff;--paper-2:#f4f4f4;--ink:#111111;--ink-2:#555555;--rule:#dadada;--rule-dark:#111111;--link:#0274b6;--link-2:#01538a;--up:#1a7f37;--down:#b3261e;
+ --serif:"Equity A",Georgia,"Times New Roman",serif;--text:"Equity A",Georgia,"Times New Roman",serif;--sans:"Equity A Caps","Equity A",Georgia,serif;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 var(--text)}
+a{color:var(--link);text-decoration:none}a:hover,a:focus-visible{color:var(--link-2);text-decoration:underline}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.masthead{max-width:1260px;margin:0 auto;padding-block:0;padding-inline:16px}
+.markets{display:flex;gap:8px 28px;flex-wrap:wrap;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--rule);font:400 13px/1.4 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:.03em;color:var(--ink-2)}
+.markets .q b{font-weight:700;color:var(--ink);margin-right:5px}.markets .up{color:var(--up)}.markets .down{color:var(--down)}.markets .asof{margin-left:auto;font-size:12px}
+.top{display:flex;gap:16px;align-items:center;font:400 12.5px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.04em;padding:8px 0 0;font-variant-numeric:tabular-nums}
+.top .counts{margin-left:auto}
+.listen button{font:400 12.5px/1.4 var(--sans);color:var(--ink);border:1px solid var(--rule-dark);border-radius:2px;padding:2px 9px;letter-spacing:.05em;background:var(--paper)}
+.listen button:hover{background:var(--paper-2)}.listen .pos{color:var(--ink-2);margin-left:6px}
+.markets .live{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rule);margin-right:6px;vertical-align:middle}.markets .live.on{background:var(--up)}
+.markets .q .px.flash-up{color:var(--up)}.markets .q .px.flash-down{color:var(--down)}.markets .q .px{transition:color .6s}
+.wordmark{margin:0;padding:12px 0 10px;text-align:center}
+.wordmark a{font:700 50px/1 var(--serif);color:var(--ink);letter-spacing:-.01em;text-wrap:balance}
+.sections{display:flex;gap:4px 26px;flex-wrap:wrap;justify-content:center;padding:9px 0;border-top:1px solid var(--rule-dark);border-bottom:1px solid var(--rule);font:400 14px/1.4 var(--sans);letter-spacing:.05em}
+.sections a{color:var(--ink);padding:2px 0;border-bottom:2px solid transparent;white-space:nowrap}
+.sections a.active,.sections a:hover{border-bottom-color:var(--ink);text-decoration:none}
+.layout{max-width:1260px;margin:0 auto;padding-block:22px 40px;padding-inline:16px;display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:28px 36px}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+.col-main,.col-rail{min-width:0}
+h2{font:700 15px/1.3 var(--sans);letter-spacing:.06em;color:var(--ink);margin:0 0 14px;padding-top:8px;border-top:2px solid var(--rule-dark)}
+.label{border-top:0;padding-top:0;font-size:13px;color:var(--ink-2)}
+.theme{margin-top:34px}
+.kicker{font:400 13px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em;margin:16px 0 6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:22px 28px}
+.story{min-width:0;border-top:1px solid var(--rule);padding-top:10px}
+.story.lead{border-top:0;padding-top:0}
+.hero{margin:0 0 12px}.hero img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:var(--paper-2)}
+.hero figcaption{font:400 12px/1.4 var(--sans);color:var(--ink-2);margin-top:5px;letter-spacing:.02em}
+.headline{margin:0 0 5px}.headline .toggle{text-align:left;font:700 19px/1.25 var(--serif);color:var(--ink);text-wrap:balance}
+.lead .headline .toggle{font-size:36px;line-height:1.12;letter-spacing:-.005em}
+.headline .toggle:hover{color:var(--link-2)}
+.byline{margin:0 0 5px;font:400 12.5px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em}
+.dek{margin:0 0 7px;color:var(--ink-2);font-size:15.5px}.lead .dek{font-size:19px;color:var(--ink)}
+.story.open .dek{display:none}
+.full p{margin:0 0 10px;font-size:16.5px}
+.cites{list-style:none;padding:8px 0 0;margin:6px 0 0;border-top:1px dotted var(--rule);font:400 13px/1.5 var(--sans)}
+.cites li{margin:3px 0}.cites time{color:var(--ink-2);margin-left:6px}
+.more{font:400 13px/1.4 var(--sans);color:var(--link);letter-spacing:.03em}.more:hover{text-decoration:underline}
+.also-list{list-style:none;margin:0;padding:0}.also-list li{padding:9px 0;border-top:1px solid var(--rule);font-size:15.5px;line-height:1.45}.also-list li:first-child{border-top:0}.also-list strong a{color:var(--ink)}.also-list .src{font:400 12px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em;margin-left:6px}
+.rail-box{margin-bottom:26px;padding:0 0 6px;border-top:2px solid var(--rule-dark)}
+.rail-box h2{border-top:0;padding-top:8px;margin-bottom:6px}
+.rail-box ul{margin:0;padding-left:0;list-style:none}.rail-box li{padding:9px 0;border-top:1px solid var(--rule);font-size:15px;line-height:1.4}
+.rail-box li:first-child{border-top:0}
+.rail-box li.sub{border-top:0;padding:2px 0 2px 14px;font-size:14px;color:var(--ink-2)}
+.latest li a{color:var(--ink);font:700 15.5px/1.3 var(--serif)}.latest li a:hover{color:var(--link-2)}
+.latest li .sec{display:block;font:400 12px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em;margin-top:2px}
+.archive{columns:2;column-gap:16px}.archive li{border-top:0;padding:3px 0;font:400 14px/1.5 var(--sans)}
+.foot{max-width:1260px;margin:0 auto;padding-block:14px 40px;padding-inline:16px;border-top:2px solid var(--rule-dark);font:400 13px/1.5 var(--sans);color:var(--ink-2);background:var(--paper)}
+.tools button{color:var(--link);margin-right:14px}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+</style></head><body>
+<header class="masthead">
+  <div class="markets" aria-label="Markets"><span class="q" data-sym="BTC"><span class="live" title="live price"></span><b>BTC</b> <span class="px">$82,265</span> <span data-chg class="up">+0.66%</span></span><span class="asof" id="asof">as of 2026-10-15 15:49 UTC</span></div>
+  <div class="top"><span class="edition">Edition · 2026-10-08</span>
+    <span class="listen" id="listen" hidden><button id="play" type="button" aria-label="Listen to the brief">▶ Listen</button><button id="stopbtn" type="button" aria-label="Stop" hidden>■</button><span id="pos" class="pos"></span></span>
+    <span class="counts">4 sections · 5 stories</span></div>
+  <script type="application/json" id="pdb-script">["Good morning. This is your daily brief for 2026-10-08. There are 5 items today, organised under 4 headings. Sources are listed on the page.", "Heading: SpaceX's $40bn chip-debt raise tests credit markets.", "Item 1. SpaceX wants $40bn of new debt to buy Nvidia chips, and its credit is already being priced like junk. Unhedged reports that five-year credit default swaps on SpaceX debt jumped 194 basis points after the FT reported the AI-and-rockets company is trying to raise another $40bn to buy Nvidia chips, and that CDS costs for other Big Tech companies have been near record highs in recent weeks, leaving the question whether investors are prudently buying insurance or speculators smell blood.  Due Diligence adds the structure: about $10bn would come from bank loans and the remaining $30bn from private investment-grade debt, a market with only around $100bn of annual issuance according to Wellington Management. Reporting from Due Diligence, Unhedged.", "Heading: Inflation-linked bonds.", "Item 2. Tips and gilt linkers both hedge inflation but carry real-rate and liquidity risk. Unhedged notes that Tips yields of 2.6%, 2.9% and 3.4% at five, 10 and 30 years are the highest since the financial crisis, and a Boston University economist argues a held-to-maturity Tips ladder is the safest retirement strategy.  The newsletter pushes back: Tips only beat nominal Treasuries if nominal yields rise less than inflation, so higher inflation expectations or higher real rates can hurt them. Reporting from Unhedged.", "Heading: Big Law and UK courts.", "Item 3. Kirkland & Ellis stops disclosing its finances. Due Diligence says the world's highest-grossing law firm, whose equity partners averaged $11.1mn last year, will stop giving its financial figures to The American Lawyer's flagship profit-and-revenue ranking, telling the publication that disclosure was no longer \"appropriate or necessary\" and gave clients no meaningful value.  Its UK arm still files accounts at Companies House, which showed record 2025 revenue of $10.6bn, up from $8.8bn. Reporting from Due Diligence, Full Disclosure.", "Item 4. Google fights a £1.2bn UK class action over Android app charges. Full Disclosure reports a case that began in London this week, financed by Fortress Investment Group (backed by Abu Dhabi's Mubadala), alleging about 20mn consumers were overcharged on Android downloads for over a decade, via excessive fees on developers passed through as higher prices.  The claimant is consumer-policy specialist Liz Coll. Reporting from Full Disclosure.", "Heading: UK politics.", "Item 5. Badenoch's conference speech separates the Conservatives from Reform. Inside Politics says that beyond an inheritance-tax pledge to exempt family homes, the key moment was Kemi Badenoch rejecting calls to \"unite the right\", saying Conservatives are \"not like\" Reform MPs who question people's Englishness.  Stephen Bush judges it right tactically, strategically and morally: it counters the attack line that voting Tory lets Reform in, helps court professional voters, and gives the party a clear differentiator, though she must now police the line. Reporting from FT Opinion, Inside Politics.", "Also today, in brief.", "Ellison on dealmaking under Trump. Due Diligence quotes David Ellison, after closing his $111bn takeover of Warner Bros Discovery, saying that in a business-friendly administration \"you should always have those relationships\", a candid remark from someone now controlling both CBS and CNN news.", "Arini Capital fund down almost 16%. Due Diligence reports the London credit investor's flagship fund has lost almost 16% this year after soured bets on debt of troubled companies.", "Andrew Mountbatten-Windsor may testify in $-£40mn fraud trial. Full Disclosure says he could be called in a £40mn London civil fraud trial involving a former Goldman Sachs banker accused of misappropriating a Turkish multimillionaire's assets, and is separately challenging police search warrants in a private hearing.", "Local watch for Brevard and Tampa Bay: 4 meetings or notices in the window, with 0 zoning hearing items listed on the page.", "That concludes your brief."]</script>
+  <h1 class="wordmark"><a href="index.html">Daily News Brief</a></h1>
+  <nav class="sections" aria-label="Sections"><a href="#spacex-s-40bn-chip-debt-raise-tests-cred">SpaceX&#x27;s $40bn chip-debt raise tests credit markets</a><a href="#inflation-linked-bonds-protection-that-i">Inflation-linked bonds</a><a href="#big-law-and-uk-courts-money-secrecy-and-">Big Law and UK courts</a><a href="#uk-politics-badenoch-draws-a-line-agains">UK politics</a><a href="#local-brevard-and-tampa-bay-property-and">Local</a><a href="#cross-check-notes">⚠ Cross-check notes</a><a href="#could-not-read">Could not read</a><a href="#archive">Archive</a></nav>
+</header>
+<main class="layout">
+  <div class="col-main">
+    <section class="top-story"><h2 class="label">Top story</h2><article class="story lead">
+<h3 class="headline"><button class="toggle" aria-expanded="false">SpaceX wants $40bn of new debt to buy Nvidia chips, and its credit is already being priced like junk</button></h3>
+<p class="byline">Due Diligence · Unhedged</p>
+<p class="dek">Unhedged reports that five-year credit default swaps on SpaceX debt jumped 194 basis points after the FT reported the AI-and-rockets company is trying to raise another $40bn to buy Nvidia chips, and that CDS costs for other Big Tech companies have been near record highs in recent weeks, leaving the question whether investors are prudently buying insurance or speculators smell blood.</p>
+<div class="full" hidden><p>Unhedged reports that five-year credit default swaps on SpaceX debt jumped 194 basis points after the FT reported the AI-and-rockets company is trying to raise another $40bn to buy Nvidia chips, and that CDS costs for other Big Tech companies have been near record highs in recent weeks, leaving the question whether investors are prudently buying insurance or speculators smell blood. Due Diligence adds the structure: about $10bn would come from bank loans and the remaining $30bn from private investment-grade debt, a market with only around $100bn of annual issuance according to Wellington Management. The newsletter says this suits private-capital firms such as Apollo, which have been urging blue-chip companies to borrow directly from investors instead of through bank syndication, and that investment grade matters because insurers and pension funds are restricted in junk-rated debt. S&amp;P rates SpaceX two notches above junk, yet its 2056 bonds trade more than 2.3 percentage points over Treasuries, a spread similar to junk-rated companies. Investors approached earlier said they got only a two-page deal memo and that limited disclosure has kept some away; one asked how they could take that to their investment committee. This follows a raise of more than $110bn from an IPO and bond sale less than four months ago.</p><ul class="cites"><li>Unhedged: Tips and Linkers <time>2026-10-08</time></li><li>Due Diligence: Kirkland&#x27;s money machine goes dark <time>2026-10-08</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></section>
+    <section id="spacex-s-40bn-chip-debt-raise-tests-cred" class="theme"><h2>SpaceX's $40bn chip-debt raise tests credit markets</h2><div class="grid"></div></section><section id="inflation-linked-bonds-protection-that-i" class="theme"><h2>Inflation-linked bonds: protection that isn't as safe as it looks</h2><div class="grid"><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Tips and gilt linkers both hedge inflation but carry real-rate and liquidity risk</button></h3>
+<p class="byline">Unhedged</p>
+<p class="dek">Unhedged notes that Tips yields of 2.6%, 2.9% and 3.4% at five, 10 and 30 years are the highest since the financial crisis, and a Boston University economist argues a held-to-maturity Tips ladder is the safest retirement strategy.</p>
+<div class="full" hidden><p>Unhedged notes that Tips yields of 2.6%, 2.9% and 3.4% at five, 10 and 30 years are the highest since the financial crisis, and a Boston University economist argues a held-to-maturity Tips ladder is the safest retirement strategy. The newsletter pushes back: Tips only beat nominal Treasuries if nominal yields rise less than inflation, so higher inflation expectations or higher real rates can hurt them. Columbia Threadneedle's Ed Al-Hussainy calls them "for losers", and Wellington's Brij Khurana says thin liquidity (Tips are about 7% of the Treasury market) produces wide bid-ask spreads in stress. Its advice: unless you are sure inflation runs hot for years and you can hold to maturity, buy plain Treasuries. On the UK side, linkers have only beaten conventional gilts by about 1.5 points in 2026 and are still down on the year despite CPI at 3.1% and expected to pass 4% early next year. The 10-year gilt yields just under 5.5% against a 1.9% real yield, implying 3.6% breakeven inflation, so a sizeable inflation risk premium is already priced in. Barclays' Jonathan Hill says shorter linkers have done better than long ones, UK linkers are about a quarter of debt and unusually long-dated, and they remain indexed to RPI until its alignment with CPIH from 2030. Unhedged's conclusion is that linkers are already expensive and do not protect against higher real rates.</p><ul class="cites"><li>Unhedged: Tips and Linkers <time>2026-10-08</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></div></section><section id="big-law-and-uk-courts-money-secrecy-and-" class="theme"><h2>Big Law and UK courts: money, secrecy and class actions</h2><div class="grid"><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Kirkland &amp; Ellis stops disclosing its finances</button></h3>
+<p class="byline">Due Diligence · Full Disclosure</p>
+<p class="dek">Due Diligence says the world's highest-grossing law firm, whose equity partners averaged $11.1mn last year, will stop giving its financial figures to The American Lawyer's flagship profit-and-revenue ranking, telling the publication that disclosure was no longer "appropriate or necessary" and gave clients no meaningful value.</p>
+<div class="full" hidden><p>Due Diligence says the world's highest-grossing law firm, whose equity partners averaged $11.1mn last year, will stop giving its financial figures to The American Lawyer's flagship profit-and-revenue ranking, telling the publication that disclosure was no longer "appropriate or necessary" and gave clients no meaningful value. Its UK arm still files accounts at Companies House, which showed record 2025 revenue of $10.6bn, up from $8.8bn. The newsletter suggests clients struggling with troubled portfolios may resent lawyers' soaring pay, and that top lawyers have privately complained about media attention to compensation, though competitive lawyers may miss the ranking.</p><ul class="cites"><li>Due Diligence: Kirkland&#x27;s money machine goes dark <time>2026-10-08</time></li><li>Full Disclosure: Google defends £1.2bn UK lawsuit <time>2026-10-08</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Google fights a £1.2bn UK class action over Android app charges</button></h3>
+<p class="byline">Full Disclosure</p>
+<p class="dek">Full Disclosure reports a case that began in London this week, financed by Fortress Investment Group (backed by Abu Dhabi's Mubadala), alleging about 20mn consumers were overcharged on Android downloads for over a decade, via excessive fees on developers passed through as higher prices.</p>
+<div class="full" hidden><p>Full Disclosure reports a case that began in London this week, financed by Fortress Investment Group (backed by Abu Dhabi's Mubadala), alleging about 20mn consumers were overcharged on Android downloads for over a decade, via excessive fees on developers passed through as higher prices. The claimant is consumer-policy specialist Liz Coll. It follows the Competition Appeal Tribunal's finding against Apple's App Store, which Apple is appealing (Court of Appeal next year), with no iPhone consumer yet compensated, and Google's August £260mn settlement of a related developer case. Google argues its store protects users from cyber threats and that Android offers more choice; both firms deny anti-competitive conduct. The correspondent says payouts must start flowing or the UK collective-action regime risks being seen as "legal theatre".</p><ul class="cites"><li>Full Disclosure: Google defends £1.2bn UK lawsuit <time>2026-10-08</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></div></section><section id="uk-politics-badenoch-draws-a-line-agains" class="theme"><h2>UK politics: Badenoch draws a line against Reform</h2><div class="grid"><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Badenoch's conference speech separates the Conservatives from Reform</button></h3>
+<p class="byline">FT Opinion · Inside Politics</p>
+<p class="dek">Inside Politics says that beyond an inheritance-tax pledge to exempt family homes, the key moment was Kemi Badenoch rejecting calls to "unite the right", saying Conservatives are "not like" Reform MPs who question people's Englishness.</p>
+<div class="full" hidden><p>Inside Politics says that beyond an inheritance-tax pledge to exempt family homes, the key moment was Kemi Badenoch rejecting calls to "unite the right", saying Conservatives are "not like" Reform MPs who question people's Englishness. Stephen Bush judges it right tactically, strategically and morally: it counters the attack line that voting Tory lets Reform in, helps court professional voters, and gives the party a clear differentiator, though she must now police the line. FT Opinion's newsletter offers the counterpoint from Janan Ganesh: the Tories' odds of winning most seats are shortening, but Europe has undone talented Conservatives before, and a half-in EU deal under Prime Minister Andy Burnham could unite a fragmented left while the Tories promise to reverse it. Top stories in Inside Politics also include an FT estimate of a near-£12bn hole in the public finances from the Iran war, piling pressure on John Healey, and Burnham's talks in Berlin with Friedrich Merz.</p><ul class="cites"><li>Inside Politics: Badenoch&#x27;s dividing line <time>2026-10-08</time></li><li>FT Opinion: Kemi Badenoch&#x27;s European nightmare <time>2026-10-08</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></div></section><section id="also-today" class="theme also"><h2>Also today</h2><ul class="also-list"><li><strong>Ellison on dealmaking under Trump</strong> Due Diligence quotes David Ellison, after closing his $111bn takeover of Warner Bros Discovery, saying that in a business-friendly administration "you should always have those relationships", a candid remark from someone now controlling both CBS and CNN news. <span class="src">Due Diligence</span></li><li><strong>Arini Capital fund down almost 16%</strong> Due Diligence reports the London credit investor's flagship fund has lost almost 16% this year after soured bets on debt of troubled companies. <span class="src">Due Diligence</span></li><li><strong>Andrew Mountbatten-Windsor may testify in $-£40mn fraud trial</strong> Full Disclosure says he could be called in a £40mn London civil fraud trial involving a former Goldman Sachs banker accused of misappropriating a Turkish multimillionaire's assets, and is separately challenging police search warrants in a private hearing. <span class="src">Full Disclosure</span></li></ul></section>
+  </div>
+  <aside class="col-rail">
+    <section class="rail-box latest"><h2>Latest</h2><ul><li><a href="#spacex-s-40bn-chip-debt-raise-tests-cred">SpaceX wants $40bn of new debt to buy Nvidia chips, and its credit is already being priced like junk</a><span class="sec">SpaceX&#x27;s $40bn chip-debt raise tests credit markets</span></li><li><a href="#inflation-linked-bonds-protection-that-i">Tips and gilt linkers both hedge inflation but carry real-rate and liquidity risk</a><span class="sec">Inflation-linked bonds</span></li><li><a href="#big-law-and-uk-courts-money-secrecy-and-">Kirkland &amp; Ellis stops disclosing its finances</a><span class="sec">Big Law and UK courts</span></li><li><a href="#big-law-and-uk-courts-money-secrecy-and-">Google fights a £1.2bn UK class action over Android app charges</a><span class="sec">Big Law and UK courts</span></li><li><a href="#uk-politics-badenoch-draws-a-line-agains">Badenoch's conference speech separates the Conservatives from Reform</a><span class="sec">UK politics</span></li></ul></section><section id="local-brevard-and-tampa-bay-property-and" class="rail-box"><h2>Local: Brevard and Tampa Bay property and zoning (official sites, 2026-10-01 to 2026-10-29)</h2><ul><li><strong>Hillsborough</strong> · <a href="https://eagenda.hcfl.gov/portal/PTL29560/search?F_MeetingType=Land%20Use%20Meeting&amp;F_DocType=Agenda" rel="noopener">Land Use Meeting agendas (eAgenda search)</a></li><li><strong>Hillsborough</strong> · <a href="https://eagenda.hcfl.gov/portal/PTL29560/search?F_MeetingType=Public%20Hearing&amp;F_DocType=Agenda" rel="noopener">Public Hearing agendas (eAgenda search)</a></li><li><strong>Hillsborough</strong> · <a href="https://www.hcfl.gov/government/meeting-information/agendas-recaps-and-minutes" rel="noopener">Agendas, recaps and minutes (hcfl.gov)</a></li><li>*Brevard (Legistar) and Tampa returned no items: the local-government sites were also refused by the network proxy (403), so only the Hillsborough links above could be listed.*</li></ul></section><section id="cross-check-notes" class="rail-box"><h2>⚠ Cross-check notes</h2><ul><li>None.</li></ul></section><section id="could-not-read" class="rail-box"><h2>Could not read</h2><ul><li>Reuters, Al Jazeera, ProPublica, The Guardian, CoinDesk, SCOTUSblog: blocked by the environment's network proxy (403 on CONNECT).</li><li>FT myFT feed, Brevard Legistar, tampa.gov: same proxy block.</li><li>Gmail newsletter query (WSJ, Economist, label News): Gmail connector tools were not available this run.</li></ul></section>
+    <section id="archive" class="rail-box"><h2>Archive</h2><ul class="archive"><li><a href="2026-10-15.html">2026-10-15</a></li><li><a href="2026-10-14.html">2026-10-14</a></li><li><a href="2026-10-13.html">2026-10-13</a></li><li><a href="2026-10-12.html">2026-10-12</a></li><li><a href="2026-10-09.html">2026-10-09</a></li><li><a href="2026-10-08.html">2026-10-08</a></li><li><a href="2026-10-07-3.html">2026-10-07-3</a></li><li><a href="2026-10-07-2.html">2026-10-07-2</a></li><li><a href="2026-10-07.html">2026-10-07</a></li></ul></section>
+  </aside>
+</main>
+<footer class="foot">
+  <p>Summaries are written from the full text of articles and newsletters read in each run. Links go to the sources. Personal use.</p>
+  <p class="tools"><button id="expand" type="button">Expand all</button> <button id="collapse" type="button">Collapse all</button></p>
+</footer>
+<script>
+(function(){
+  function setOpen(a,open){ a.querySelector('.full').hidden=!open; a.querySelector('.toggle').setAttribute('aria-expanded',open?'true':'false'); a.querySelector('.more').textContent=open?'Show less':'Read the full summary'; a.classList.toggle('open',open); }
+  document.querySelectorAll('.story').forEach(function(a){
+    var go=function(){ setOpen(a, a.querySelector('.full').hidden); };
+    a.querySelector('.toggle').addEventListener('click',go); a.querySelector('.more').addEventListener('click',go);
+  });
+  document.getElementById('expand').addEventListener('click',function(){document.querySelectorAll('.story').forEach(function(a){setOpen(a,true)})});
+  document.getElementById('collapse').addEventListener('click',function(){document.querySelectorAll('.story').forEach(function(a){setOpen(a,false)})});
+  // ---- Listen (President's Daily Brief style) via the browser's speech engine ----
+  (function(){
+    var box=document.getElementById('listen'); if(!box||!('speechSynthesis' in window)) return;
+    var script=JSON.parse(document.getElementById('pdb-script').textContent||'[]'); if(!script.length) return;
+    box.hidden=false; var play=document.getElementById('play'), stopb=document.getElementById('stopbtn'), pos=document.getElementById('pos');
+    var synth=window.speechSynthesis, i=0, state='idle', voice=null;
+    function pickVoice(){ var vs=synth.getVoices(); if(!vs.length) return null;
+      var pref=['Google US English','Samantha','Daniel','Microsoft Aria Online (Natural) - English (United States)','Alex'];
+      for(var p of pref){ var v=vs.find(function(x){return x.name===p}); if(v) return v; }
+      return vs.find(function(x){return /^en(-|_)US/i.test(x.lang)})||vs.find(function(x){return /^en/i.test(x.lang)})||vs[0]; }
+    if(synth.onvoiceschanged!==undefined) synth.onvoiceschanged=function(){voice=voice||pickVoice()};
+    function speak(){ if(i>=script.length){ stop(); return; } var u=new SpeechSynthesisUtterance(script[i]); voice=voice||pickVoice(); if(voice) u.voice=voice; u.rate=1.02; u.pitch=1;
+      pos.textContent=(i+1)+' / '+script.length; u.onend=function(){ if(state==='playing'){ i++; speak(); } }; u.onerror=function(){ if(state==='playing'){ i++; speak(); } }; synth.speak(u); }
+    function stop(){ state='idle'; i=0; synth.cancel(); play.textContent='▶ Listen'; stopb.hidden=true; pos.textContent=''; }
+    play.addEventListener('click',function(){ if(state==='idle'){ state='playing'; play.textContent='❚❚ Pause'; stopb.hidden=false; speak(); }
+      else if(state==='playing'){ state='paused'; synth.pause(); play.textContent='▶ Resume'; }
+      else { state='playing'; synth.resume(); play.textContent='❚❚ Pause'; } });
+    stopb.addEventListener('click',stop); window.addEventListener('beforeunload',function(){synth.cancel()});
+  })();
+  // ---- Live Bitcoin price: Coinbase spot every 5s, CoinGecko 24h change every 60s; falls back to the build-time value ----
+  (function(){
+    var q=document.querySelector('.markets .q[data-sym="BTC"]'); if(!q||!window.fetch) return;
+    var px=q.querySelector('.px'), dot=q.querySelector('.live'), chg=q.querySelector('[data-chg]'), asof=document.getElementById('asof'), last=null;
+    function fmt(n){ return '$'+Math.round(n).toLocaleString('en-US'); }
+    async function spot(){ try{ var r=await fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot',{cache:'no-store'}); var j=await r.json(); var p=parseFloat(j.data.amount); if(!isFinite(p)) return;
+        if(last!==null&&p!==last){ px.classList.remove('flash-up','flash-down'); void px.offsetWidth; px.classList.add(p>last?'flash-up':'flash-down'); setTimeout(function(){px.classList.remove('flash-up','flash-down')},900); }
+        last=p; px.textContent=fmt(p); dot.classList.add('on'); var t=new Date(); asof.textContent='live · '+t.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'}); }catch(e){ dot.classList.remove('on'); } }
+    async function change(){ try{ var r=await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true',{cache:'no-store'}); var j=await r.json(); var c=j.bitcoin.usd_24h_change; if(!isFinite(c)) return;
+        if(!chg){ chg=document.createElement('span'); chg.setAttribute('data-chg',''); q.appendChild(document.createTextNode(' ')); q.appendChild(chg); }
+        chg.className=c>=0?'up':'down'; chg.textContent=(c>=0?'+':'')+c.toFixed(2)+'%'; }catch(e){} }
+    spot(); change(); setInterval(spot,5000); setInterval(change,60000);
+    document.addEventListener('visibilitychange',function(){ if(!document.hidden){ spot(); change(); } });
+  })();
+  var links=[].slice.call(document.querySelectorAll('.sections a[href^="#"]'));
+  var secs=links.map(function(l){return document.querySelector(l.getAttribute('href'))}).filter(Boolean);
+  function mark(){ var y=window.scrollY+140, cur=null; secs.forEach(function(s){ if(s.offsetTop<=y) cur=s; }); links.forEach(function(l){ l.classList.toggle('active', cur && l.getAttribute('href')==='#'+cur.id); }); }
+  window.addEventListener('scroll',mark,{passive:true}); mark();
+})();
+</script></body></html>

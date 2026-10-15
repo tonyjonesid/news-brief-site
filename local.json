@@ -1,10 +1,20 @@
 {
- "asof": "2026-10-07",
+ "asof": "2026-10-15",
  "window": [
-  "2026-09-27",
-  "2026-11-04"
+  "2026-10-08",
+  "2026-11-05"
  ],
  "brevard_meetings": [
+  {
+   "county": "Brevard",
+   "body": "Brevard County Board of County Commissioners",
+   "date": "2026-11-05",
+   "time": "5:00 PM",
+   "where": "Commission Chambers Zoning",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
   {
    "county": "Brevard",
    "body": "Board of Adjustment",
@@ -72,77 +82,31 @@
    "detail": null,
    "agenda_pdf": null,
    "items": []
-  },
-  {
-   "county": "Brevard",
-   "body": "Brevard County Board of County Commissioners",
-   "date": "2026-10-01",
-   "time": "5:00 PM",
-   "where": "Commission Chambers Zoning",
-   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1350560&GUID=0BB36ACA-A670-463C-ABAD-A3FE4702F582&Options=info|&Search=",
-   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1350560&GUID=0BB36ACA-A670-463C-ABAD-A3FE4702F582",
-   "items": [
-    {
-     "no": "H.1.",
-     "type": "Public Hearing",
-     "title": "Thankachan and Siji Joseph (Greg Jean-Denis) request a zoning classification change from BU-1 with a BDP to BU-1 and removal of the existing BDP and addition of a new BDP (26Z00030) (Tax Account 2411235) (District 1) - This item has been continued to the October 12, 2026, Planning and Zoning Board M",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236478&GUID=43F2601C-35D8-432F-BF12-B251DB2FD91C&Options=&Search="
-    },
-    {
-     "no": "H.2.",
-     "type": "Public Hearing",
-     "title": "Cirrus Properties LLC (David Bassford) requests a change from BU-2 (Retail, Warehousing and Wholesale Commercial) with a BDP to BU-2 with an amendment to the existing BDP. (26Z00011) (Tax Account 2602467, 2602464, 2602466, 2602468) (District 4)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236500&GUID=DDD5A75E-847F-459F-A837-824C03B27D8E&Options=&Search="
-    },
-    {
-     "no": "H.4.",
-     "type": "Public Hearing",
-     "title": "Cypress MHP, LLC requests a zoning classification change from TR-1 and TR-3 to all TR-3 (26Z00025) (Tax Account 2408070, 2408071) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236476&GUID=BAE61C8E-B35F-495A-A5C1-BCB20464B59A&Options=&Search="
-    },
-    {
-     "no": "H.5.",
-     "type": "Public Hearing",
-     "title": "Iosif and Lyudmila Tirgoala (Kim Rezanka) are requesting a Small-Scale Comprehensive Plan Amendment (26S.08) to change the Future Land Use designation from RES 4 to CC. (26SS00008) (Tax Account 2400693, 2400692) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236501&GUID=ACAFC2DB-DDFA-4BAE-8D32-BCB91185DB35&Options=&Search="
-    },
-    {
-     "no": "H.6.",
-     "type": "Public Hearing",
-     "title": "Iosif and Lyudmila Tirgoala (Kim Rezanka) are requesting a zoning classification change from GU to BU-2. (26Z00032) (Tax Account 2400693, 2400692) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236516&GUID=BA54A520-F8AA-4797-8ECF-BE6B09743868&Options=&Search="
-    },
-    {
-     "no": "H.7.",
-     "type": "Public Hearing",
-     "title": "Defender Homes Airway Heights LLC (Kim Rezanka) requests a zoning classification change from RR-1 to RU-1-11 with a BDP. (26Z00034) (Tax Account 2702763) (District 5)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8236477&GUID=6971D0CC-EEB6-4043-953E-16B71375710D&Options=&Search="
-    }
-   ]
   }
  ],
- "tampa_news": [],
+ "tampa_news": [
+  {
+   "city": "Tampa",
+   "title": "Tampa CRA Awards First Commercial Design Grant!",
+   "url": "https://www.tampa.gov/news/2026-10/tampa-cra-awards-first-commercial-design-grant-196426",
+   "date": "2026-10-14",
+   "words": 319
+  }
+ ],
  "tampa_notices": [
-  {
-   "city": "Tampa",
-   "title": "Notice of Public Meeting City Council Regular Agenda",
-   "url": "https://www.tampa.gov/document/notice-public-meeting-10-01-2026-city-council-regular-agenda-195471",
-   "date": "2026-10-01",
-   "kind": "council notice"
-  },
-  {
-   "city": "Tampa",
-   "title": "Notice of CRA Regular Meeting",
-   "url": "https://www.tampa.gov/document/notice-cra-regular-meeting-10-08-2026-195841",
-   "date": "2026-10-08",
-   "kind": "council notice"
-  },
   {
    "city": "Tampa",
    "title": "Notice of City Council QJ Evening Meeting",
    "url": "https://www.tampa.gov/document/notice-city-council-qj-evening-meeting-10-08-2026-195846",
    "date": "2026-10-08",
    "kind": "quasi-judicial (zoning) hearing"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of Public Meeting City Council Regular Agenda",
+   "url": "https://www.tampa.gov/document/notice-public-meeting-10-15-2026-city-council-regular-agenda-196276",
+   "date": "2026-10-15",
+   "kind": "council notice"
   }
  ],
  "hillsborough_links": [

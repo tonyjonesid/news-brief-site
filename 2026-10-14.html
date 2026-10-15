@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Daily News Brief 2026-10-14</title><meta name="description" content="Daily news brief built from full article and newsletter text.">
+<style>@font-face{font-family:"Equity A";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/EquityA-Regular.otf") format("opentype")}
+@font-face{font-family:"Equity A";font-weight:400;font-style:italic;font-display:swap;src:url("fonts/EquityA-Italic.otf") format("opentype")}
+@font-face{font-family:"Equity A";font-weight:700;font-style:normal;font-display:swap;src:url("fonts/EquityA-Bold.otf") format("opentype")}
+@font-face{font-family:"Equity A";font-weight:700;font-style:italic;font-display:swap;src:url("fonts/EquityA-BoldItalic.otf") format("opentype")}
+@font-face{font-family:"Equity A Caps";font-weight:400;font-style:normal;font-display:swap;src:url("fonts/EquityACaps-Regular.otf") format("opentype")}
+@font-face{font-family:"Equity A Caps";font-weight:700;font-style:normal;font-display:swap;src:url("fonts/EquityACaps-Bold.otf") format("opentype")}
+
+/* Layout: broadsheet front page on white — ticker strip, centred wordmark, black-rule section bar, 2+1 front grid (lead + "Latest" list), then 3-across story grids per theme. */
+:root{--paper:#ffffff;--paper-2:#f4f4f4;--ink:#111111;--ink-2:#555555;--rule:#dadada;--rule-dark:#111111;--link:#0274b6;--link-2:#01538a;--up:#1a7f37;--down:#b3261e;
+ --serif:"Equity A",Georgia,"Times New Roman",serif;--text:"Equity A",Georgia,"Times New Roman",serif;--sans:"Equity A Caps","Equity A",Georgia,serif;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 var(--text)}
+a{color:var(--link);text-decoration:none}a:hover,a:focus-visible{color:var(--link-2);text-decoration:underline}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.masthead{max-width:1260px;margin:0 auto;padding-block:0;padding-inline:16px}
+.markets{display:flex;gap:8px 28px;flex-wrap:wrap;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--rule);font:400 13px/1.4 var(--sans);font-variant-numeric:tabular-nums;letter-spacing:.03em;color:var(--ink-2)}
+.markets .q b{font-weight:700;color:var(--ink);margin-right:5px}.markets .up{color:var(--up)}.markets .down{color:var(--down)}.markets .asof{margin-left:auto;font-size:12px}
+.top{display:flex;gap:16px;align-items:center;font:400 12.5px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.04em;padding:8px 0 0;font-variant-numeric:tabular-nums}
+.top .counts{margin-left:auto}
+.listen button{font:400 12.5px/1.4 var(--sans);color:var(--ink);border:1px solid var(--rule-dark);border-radius:2px;padding:2px 9px;letter-spacing:.05em;background:var(--paper)}
+.listen button:hover{background:var(--paper-2)}.listen .pos{color:var(--ink-2);margin-left:6px}
+.markets .live{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rule);margin-right:6px;vertical-align:middle}.markets .live.on{background:var(--up)}
+.markets .q .px.flash-up{color:var(--up)}.markets .q .px.flash-down{color:var(--down)}.markets .q .px{transition:color .6s}
+.wordmark{margin:0;padding:12px 0 10px;text-align:center}
+.wordmark a{font:700 50px/1 var(--serif);color:var(--ink);letter-spacing:-.01em;text-wrap:balance}
+.sections{display:flex;gap:4px 26px;flex-wrap:wrap;justify-content:center;padding:9px 0;border-top:1px solid var(--rule-dark);border-bottom:1px solid var(--rule);font:400 14px/1.4 var(--sans);letter-spacing:.05em}
+.sections a{color:var(--ink);padding:2px 0;border-bottom:2px solid transparent;white-space:nowrap}
+.sections a.active,.sections a:hover{border-bottom-color:var(--ink);text-decoration:none}
+.layout{max-width:1260px;margin:0 auto;padding-block:22px 40px;padding-inline:16px;display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:28px 36px}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+.col-main,.col-rail{min-width:0}
+h2{font:700 15px/1.3 var(--sans);letter-spacing:.06em;color:var(--ink);margin:0 0 14px;padding-top:8px;border-top:2px solid var(--rule-dark)}
+.label{border-top:0;padding-top:0;font-size:13px;color:var(--ink-2)}
+.theme{margin-top:34px}
+.kicker{font:400 13px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em;margin:16px 0 6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:22px 28px}
+.story{min-width:0;border-top:1px solid var(--rule);padding-top:10px}
+.story.lead{border-top:0;padding-top:0}
+.hero{margin:0 0 12px}.hero img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:var(--paper-2)}
+.hero figcaption{font:400 12px/1.4 var(--sans);color:var(--ink-2);margin-top:5px;letter-spacing:.02em}
+.headline{margin:0 0 5px}.headline .toggle{text-align:left;font:700 19px/1.25 var(--serif);color:var(--ink);text-wrap:balance}
+.lead .headline .toggle{font-size:36px;line-height:1.12;letter-spacing:-.005em}
+.headline .toggle:hover{color:var(--link-2)}
+.byline{margin:0 0 5px;font:400 12.5px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em}
+.dek{margin:0 0 7px;color:var(--ink-2);font-size:15.5px}.lead .dek{font-size:19px;color:var(--ink)}
+.story.open .dek{display:none}
+.full p{margin:0 0 10px;font-size:16.5px}
+.cites{list-style:none;padding:8px 0 0;margin:6px 0 0;border-top:1px dotted var(--rule);font:400 13px/1.5 var(--sans)}
+.cites li{margin:3px 0}.cites time{color:var(--ink-2);margin-left:6px}
+.more{font:400 13px/1.4 var(--sans);color:var(--link);letter-spacing:.03em}.more:hover{text-decoration:underline}
+.also-list{list-style:none;margin:0;padding:0}.also-list li{padding:9px 0;border-top:1px solid var(--rule);font-size:15.5px;line-height:1.45}.also-list li:first-child{border-top:0}.also-list strong a{color:var(--ink)}.also-list .src{font:400 12px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em;margin-left:6px}
+.rail-box{margin-bottom:26px;padding:0 0 6px;border-top:2px solid var(--rule-dark)}
+.rail-box h2{border-top:0;padding-top:8px;margin-bottom:6px}
+.rail-box ul{margin:0;padding-left:0;list-style:none}.rail-box li{padding:9px 0;border-top:1px solid var(--rule);font-size:15px;line-height:1.4}
+.rail-box li:first-child{border-top:0}
+.rail-box li.sub{border-top:0;padding:2px 0 2px 14px;font-size:14px;color:var(--ink-2)}
+.latest li a{color:var(--ink);font:700 15.5px/1.3 var(--serif)}.latest li a:hover{color:var(--link-2)}
+.latest li .sec{display:block;font:400 12px/1.4 var(--sans);color:var(--ink-2);letter-spacing:.05em;margin-top:2px}
+.archive{columns:2;column-gap:16px}.archive li{border-top:0;padding:3px 0;font:400 14px/1.5 var(--sans)}
+.foot{max-width:1260px;margin:0 auto;padding-block:14px 40px;padding-inline:16px;border-top:2px solid var(--rule-dark);font:400 13px/1.5 var(--sans);color:var(--ink-2);background:var(--paper)}
+.tools button{color:var(--link);margin-right:14px}
+:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+</style></head><body>
+<header class="masthead">
+  <div class="markets" aria-label="Markets"><span class="q" data-sym="BTC"><span class="live" title="live price"></span><b>BTC</b> <span class="px">$82,265</span> <span data-chg class="up">+0.66%</span></span><span class="asof" id="asof">as of 2026-10-15 15:49 UTC</span></div>
+  <div class="top"><span class="edition">Edition · 2026-10-14</span>
+    <span class="listen" id="listen" hidden><button id="play" type="button" aria-label="Listen to the brief">▶ Listen</button><button id="stopbtn" type="button" aria-label="Stop" hidden>■</button><span id="pos" class="pos"></span></span>
+    <span class="counts">3 sections · 4 stories</span></div>
+  <script type="application/json" id="pdb-script">["Good morning. This is your daily brief for 2026-10-14. There are 4 items today, organised under 3 headings. Sources are listed on the page.", "Heading: Britain moves to regulate frontier AI.", "Item 1. Westminster turns its attention to AI risk. The FT's Whitehall editor argues that after months of little attention from ministers and MPs, the government, the intelligence services and parliament have shifted into gear this week.  AI minister Kanishka Narayan said the technology must face regulation and set out plans for compulsory safety reporting and monitoring of frontier AI, plus a possible requirement to make models available for pre-release testing. Reporting from FT Inside Politics.", "Heading: Markets and credit.", "Item 2. US stocks head toward near-round-the-clock trading. Unhedged says the SEC-led push for \"24-hour\" trading is expected to start on 6 December across five exchanges including Nasdaq and NYSE Arca, but it is really 23 hours a day, five days a week, with a one-hour pause from 8pm to 9pm EST Monday to Thursday.  The authors attribute part of the pressure to crypto and tokenisation and to demand from overseas retail traders, and note that overnight volume is up 358% year on year but is only about 0.1% of regular-hours volume, mostly in sub-$1 stocks. Reporting from FT Unhedged.", "Item 3. Altice International's lenders sue Patrick Drahi's group. Due Diligence reports that creditors to Altice International, including Elliott Management, Sona Asset Management and Arini Capital Management, sued the company and linked entities on Tuesday.  They allege assets worth billions were moved beyond their reach and say they are owed €8bn. Reporting from FT Due Diligence.", "Heading: US midterm money and the Ukraine pressure campaign.", "Item 4. Musk spends $275mn backing Republicans. White House Watch reports that Elon Musk has spent more than $275mn on key races ahead of the November midterms, including $158mn to the Senate Leadership Fund and $20mn to the Congressional Leadership Fund plus tens of millions to his own America PAC, according to people familiar with the matter.  Republican committees and Maga Inc had raised over $1.1bn against roughly $600mn for Democrats as of the end of August. Reporting from FT White House Watch.", "Also today, in brief.", "FT Opinion. The newsletter's digest highlights Martin Wolf on the IMF's description of seven years of man-made shocks, Edward Luce on Trump's refusal to back Ukraine, and an FT editorial calling Trump's Russian diesel deal cynical and unlikely to work.", "Local watch for Brevard and Tampa Bay: 3 meetings or notices in the window, with 0 zoning hearing items listed on the page.", "That concludes your brief."]</script>
+  <h1 class="wordmark"><a href="index.html">Daily News Brief</a></h1>
+  <nav class="sections" aria-label="Sections"><a href="#britain-moves-to-regulate-frontier-ai">Britain moves to regulate frontier AI</a><a href="#markets-and-credit-23-hour-trading-and-d">Markets and credit</a><a href="#us-midterm-money-and-the-ukraine-pressur">US midterm money and the Ukraine pressure campaign</a><a href="#local-brevard-and-tampa-bay-property-and">Local</a><a href="#on-the-ft-headlines-only">On the FT</a><a href="#cross-check-notes">⚠ Cross-check notes</a><a href="#could-not-read">Could not read</a><a href="#archive">Archive</a></nav>
+</header>
+<main class="layout">
+  <div class="col-main">
+    <section class="top-story"><h2 class="label">Top story</h2><article class="story lead">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Westminster turns its attention to AI risk</button></h3>
+<p class="byline">FT Inside Politics</p>
+<p class="dek">The FT's Whitehall editor argues that after months of little attention from ministers and MPs, the government, the intelligence services and parliament have shifted into gear this week.</p>
+<div class="full" hidden><p>The FT's Whitehall editor argues that after months of little attention from ministers and MPs, the government, the intelligence services and parliament have shifted into gear this week. AI minister Kanishka Narayan said the technology must face regulation and set out plans for compulsory safety reporting and monitoring of frontier AI, plus a possible requirement to make models available for pre-release testing. He warned that a breach of Britain's cyber defences by rogue agents is "likely, if not inevitable". MI5's director-general devoted much of his annual threat update to AI, describing it as supercharging the attacker-defender cyber contest and announcing a new AI Threat Assessment Centre that pools MI5, the AI Security Institute, the National Crime Agency and the NCSC. The Commons business and trade committee opened a 12-month inquiry with a three-hour hearing. The piece also cites Anthropic's warning about AI worms hijacking smart-home devices and a cyber attack that raised temperatures in French supermarket fridges, and notes the earlier withholding of a model from the AI Security Institute was reversed. It is an opinionated newsletter column, so the characterisations are the author's.</p><ul class="cites"><li>FT Inside Politics: Action on AI <time>2026-10-14</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></section>
+    <section id="britain-moves-to-regulate-frontier-ai" class="theme"><h2>Britain moves to regulate frontier AI</h2><div class="grid"></div></section><section id="markets-and-credit-23-hour-trading-and-d" class="theme"><h2>Markets and credit: 23-hour trading and Drahi's creditors</h2><div class="grid"><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">US stocks head toward near-round-the-clock trading</button></h3>
+<p class="byline">FT Unhedged</p>
+<p class="dek">Unhedged says the SEC-led push for "24-hour" trading is expected to start on 6 December across five exchanges including Nasdaq and NYSE Arca, but it is really 23 hours a day, five days a week, with a one-hour pause from 8pm to 9pm EST Monday to Thursday.</p>
+<div class="full" hidden><p>Unhedged says the SEC-led push for "24-hour" trading is expected to start on 6 December across five exchanges including Nasdaq and NYSE Arca, but it is really 23 hours a day, five days a week, with a one-hour pause from 8pm to 9pm EST Monday to Thursday. The authors attribute part of the pressure to crypto and tokenisation and to demand from overseas retail traders, and note that overnight volume is up 358% year on year but is only about 0.1% of regular-hours volume, mostly in sub-$1 stocks. They worry about thin liquidity and manipulation risk, a lack of SEC guidance on overnight risk management, and regulatory staffing, and doubt institutions will join soon. The same issue says the big US banks' latest results were healthy: Goldman's equities trading revenue rose 72% to $6.4bn and JPMorgan's nearly 50% to $5bn, while fixed income, currency and commodities trading fell on bond-market turbulence.</p><ul class="cites"><li>FT Unhedged: The rollout of 24-hour* trading <time>2026-10-14</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Altice International's lenders sue Patrick Drahi's group</button></h3>
+<p class="byline">FT Due Diligence</p>
+<p class="dek">Due Diligence reports that creditors to Altice International, including Elliott Management, Sona Asset Management and Arini Capital Management, sued the company and linked entities on Tuesday.</p>
+<div class="full" hidden><p>Due Diligence reports that creditors to Altice International, including Elliott Management, Sona Asset Management and Arini Capital Management, sued the company and linked entities on Tuesday. They allege assets worth billions were moved beyond their reach and say they are owed €8bn. It follows a similar suit two weeks ago by lenders to the US business, including Apollo and Oaktree, and a separate Altice suit calling the US bondholders an "illegal cartel", after which Kirkland &amp; Ellis quit as the group's counsel. The newsletter adds that Drahi agreed a €20.35bn sale of SFR in June after Altice France's debt was cut from €24bn to €15.5bn, and that LSEG confirmed talks to buy credit-data provider Octus for $3.5bn, with LSEG shares down nearly 5%.</p><ul class="cites"><li>FT Due Diligence: Patrick Drahi&#x27;s creditors strike back <time>2026-10-14</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></div></section><section id="us-midterm-money-and-the-ukraine-pressur" class="theme"><h2>US midterm money and the Ukraine pressure campaign</h2><div class="grid"><article class="story">
+<h3 class="headline"><button class="toggle" aria-expanded="false">Musk spends $275mn backing Republicans</button></h3>
+<p class="byline">FT White House Watch</p>
+<p class="dek">White House Watch reports that Elon Musk has spent more than $275mn on key races ahead of the November midterms, including $158mn to the Senate Leadership Fund and $20mn to the Congressional Leadership Fund plus tens of millions to his own America PAC, according to people familiar with the matter.</p>
+<div class="full" hidden><p>White House Watch reports that Elon Musk has spent more than $275mn on key races ahead of the November midterms, including $158mn to the Senate Leadership Fund and $20mn to the Congressional Leadership Fund plus tens of millions to his own America PAC, according to people familiar with the matter. Republican committees and Maga Inc had raised over $1.1bn against roughly $600mn for Democrats as of the end of August. An FT-Focaldata poll puts Trump's approval at 34%, with 45% of registered voters saying he is making it harder for Republicans to win. The newsletter's headlines also cite a raid on Congresswoman Ilhan Omar's home, a Justice Department antitrust probe of five TV networks, and US lobbying of European capitals to threaten arms sales to Kyiv unless Ukraine halts deep strikes on Russian energy infrastructure; Zelenskyy blamed Russia for breaking a purported "energy ceasefire". It also reports Bosnia's foreign minister warning US officials about Republika Srpska's hiring of Trump-connected consultants.</p><ul class="cites"><li>FT White House Watch: Musk&#x27;s $275mn pledge to Republicans <time>2026-10-13</time></li></ul></div>
+<button class="more" type="button">Read the full summary</button>
+</article></div></section><section id="also-today" class="theme also"><h2>Also today</h2><ul class="also-list"><li><strong>FT Opinion</strong> The newsletter's digest highlights Martin Wolf on the IMF's description of seven years of man-made shocks, Edward Luce on Trump's refusal to back Ukraine, and an FT editorial calling Trump's Russian diesel deal cynical and unlikely to work. <span class="src">FT Opinion</span></li></ul></section>
+  </div>
+  <aside class="col-rail">
+    <section class="rail-box latest"><h2>Latest</h2><ul><li><a href="#britain-moves-to-regulate-frontier-ai">Westminster turns its attention to AI risk</a><span class="sec">Britain moves to regulate frontier AI</span></li><li><a href="#markets-and-credit-23-hour-trading-and-d">US stocks head toward near-round-the-clock trading</a><span class="sec">Markets and credit</span></li><li><a href="#markets-and-credit-23-hour-trading-and-d">Altice International's lenders sue Patrick Drahi's group</a><span class="sec">Markets and credit</span></li><li><a href="#us-midterm-money-and-the-ukraine-pressur">Musk spends $275mn backing Republicans</a><span class="sec">US midterm money and the Ukraine pressure campaign</span></li></ul></section><section id="local-brevard-and-tampa-bay-property-and" class="rail-box"><h2>Local: Brevard and Tampa Bay property and zoning</h2><ul><li>Official sites were unreachable this run (proxy 403 for brevardfl.legistar.com, tampa.gov and eagenda.hcfl.gov), so no meetings or hearing items could be read.</li><li><strong>Hillsborough</strong> · <a href="https://eagenda.hcfl.gov/portal/PTL29560/search?F_MeetingType=Land%20Use%20Meeting&amp;F_DocType=Agenda" rel="noopener">Land Use Meeting agendas (eAgenda search)</a></li><li><strong>Hillsborough</strong> · <a href="https://eagenda.hcfl.gov/portal/PTL29560/search?F_MeetingType=Public%20Hearing&amp;F_DocType=Agenda" rel="noopener">Public Hearing agendas (eAgenda search)</a></li></ul></section><section id="on-the-ft-headlines-only" class="rail-box"><h2>On the FT (headlines only)</h2><ul><li>The FT feed was blocked this run.</li></ul></section><section id="cross-check-notes" class="rail-box"><h2>⚠ Cross-check notes</h2><ul><li>None.</li></ul></section><section id="could-not-read" class="rail-box"><h2>Could not read</h2><ul><li>All web sources (Reuters, Al Jazeera, ProPublica, Guardian, CoinDesk, SCOTUSblog): network policy denied host (proxy 403 to CONNECT).</li><li>FT RSS feed and official local sites: same 403.</li><li>Gmail newsletter query: Gmail connector tools were not available in this session.</li></ul></section>
+    <section id="archive" class="rail-box"><h2>Archive</h2><ul class="archive"><li><a href="2026-10-15.html">2026-10-15</a></li><li><a href="2026-10-14.html">2026-10-14</a></li><li><a href="2026-10-13.html">2026-10-13</a></li><li><a href="2026-10-12.html">2026-10-12</a></li><li><a href="2026-10-09.html">2026-10-09</a></li><li><a href="2026-10-08.html">2026-10-08</a></li><li><a href="2026-10-07-3.html">2026-10-07-3</a></li><li><a href="2026-10-07-2.html">2026-10-07-2</a></li><li><a href="2026-10-07.html">2026-10-07</a></li></ul></section>
+  </aside>
+</main>
+<footer class="foot">
+  <p>Summaries are written from the full text of articles and newsletters read in each run. Links go to the sources. Personal use.</p>
+  <p class="tools"><button id="expand" type="button">Expand all</button> <button id="collapse" type="button">Collapse all</button></p>
+</footer>
+<script>
+(function(){
+  function setOpen(a,open){ a.querySelector('.full').hidden=!open; a.querySelector('.toggle').setAttribute('aria-expanded',open?'true':'false'); a.querySelector('.more').textContent=open?'Show less':'Read the full summary'; a.classList.toggle('open',open); }
+  document.querySelectorAll('.story').forEach(function(a){
+    var go=function(){ setOpen(a, a.querySelector('.full').hidden); };
+    a.querySelector('.toggle').addEventListener('click',go); a.querySelector('.more').addEventListener('click',go);
+  });
+  document.getElementById('expand').addEventListener('click',function(){document.querySelectorAll('.story').forEach(function(a){setOpen(a,true)})});
+  document.getElementById('collapse').addEventListener('click',function(){document.querySelectorAll('.story').forEach(function(a){setOpen(a,false)})});
+  // ---- Listen (President's Daily Brief style) via the browser's speech engine ----
+  (function(){
+    var box=document.getElementById('listen'); if(!box||!('speechSynthesis' in window)) return;
+    var script=JSON.parse(document.getElementById('pdb-script').textContent||'[]'); if(!script.length) return;
+    box.hidden=false; var play=document.getElementById('play'), stopb=document.getElementById('stopbtn'), pos=document.getElementById('pos');
+    var synth=window.speechSynthesis, i=0, state='idle', voice=null;
+    function pickVoice(){ var vs=synth.getVoices(); if(!vs.length) return null;
+      var pref=['Google US English','Samantha','Daniel','Microsoft Aria Online (Natural) - English (United States)','Alex'];
+      for(var p of pref){ var v=vs.find(function(x){return x.name===p}); if(v) return v; }
+      return vs.find(function(x){return /^en(-|_)US/i.test(x.lang)})||vs.find(function(x){return /^en/i.test(x.lang)})||vs[0]; }
+    if(synth.onvoiceschanged!==undefined) synth.onvoiceschanged=function(){voice=voice||pickVoice()};
+    function speak(){ if(i>=script.length){ stop(); return; } var u=new SpeechSynthesisUtterance(script[i]); voice=voice||pickVoice(); if(voice) u.voice=voice; u.rate=1.02; u.pitch=1;
+      pos.textContent=(i+1)+' / '+script.length; u.onend=function(){ if(state==='playing'){ i++; speak(); } }; u.onerror=function(){ if(state==='playing'){ i++; speak(); } }; synth.speak(u); }
+    function stop(){ state='idle'; i=0; synth.cancel(); play.textContent='▶ Listen'; stopb.hidden=true; pos.textContent=''; }
+    play.addEventListener('click',function(){ if(state==='idle'){ state='playing'; play.textContent='❚❚ Pause'; stopb.hidden=false; speak(); }
+      else if(state==='playing'){ state='paused'; synth.pause(); play.textContent='▶ Resume'; }
+      else { state='playing'; synth.resume(); play.textContent='❚❚ Pause'; } });
+    stopb.addEventListener('click',stop); window.addEventListener('beforeunload',function(){synth.cancel()});
+  })();
+  // ---- Live Bitcoin price: Coinbase spot every 5s, CoinGecko 24h change every 60s; falls back to the build-time value ----
+  (function(){
+    var q=document.querySelector('.markets .q[data-sym="BTC"]'); if(!q||!window.fetch) return;
+    var px=q.querySelector('.px'), dot=q.querySelector('.live'), chg=q.querySelector('[data-chg]'), asof=document.getElementById('asof'), last=null;
+    function fmt(n){ return '$'+Math.round(n).toLocaleString('en-US'); }
+    async function spot(){ try{ var r=await fetch('https://api.coinbase.com/v2/prices/BTC-USD/spot',{cache:'no-store'}); var j=await r.json(); var p=parseFloat(j.data.amount); if(!isFinite(p)) return;
+        if(last!==null&&p!==last){ px.classList.remove('flash-up','flash-down'); void px.offsetWidth; px.classList.add(p>last?'flash-up':'flash-down'); setTimeout(function(){px.classList.remove('flash-up','flash-down')},900); }
+        last=p; px.textContent=fmt(p); dot.classList.add('on'); var t=new Date(); asof.textContent='live · '+t.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'}); }catch(e){ dot.classList.remove('on'); } }
+    async function change(){ try{ var r=await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_24hr_change=true',{cache:'no-store'}); var j=await r.json(); var c=j.bitcoin.usd_24h_change; if(!isFinite(c)) return;
+        if(!chg){ chg=document.createElement('span'); chg.setAttribute('data-chg',''); q.appendChild(document.createTextNode(' ')); q.appendChild(chg); }
+        chg.className=c>=0?'up':'down'; chg.textContent=(c>=0?'+':'')+c.toFixed(2)+'%'; }catch(e){} }
+    spot(); change(); setInterval(spot,5000); setInterval(change,60000);
+    document.addEventListener('visibilitychange',function(){ if(!document.hidden){ spot(); change(); } });
+  })();
+  var links=[].slice.call(document.querySelectorAll('.sections a[href^="#"]'));
+  var secs=links.map(function(l){return document.querySelector(l.getAttribute('href'))}).filter(Boolean);
+  function mark(){ var y=window.scrollY+140, cur=null; secs.forEach(function(s){ if(s.offsetTop<=y) cur=s; }); links.forEach(function(l){ l.classList.toggle('active', cur && l.getAttribute('href')==='#'+cur.id); }); }
+  window.addEventListener('scroll',mark,{passive:true}); mark();
+})();
+</script></body></html>
