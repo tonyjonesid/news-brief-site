@@ -1,8 +1,8 @@
 {
- "asof": "2026-10-15",
+ "asof": "2026-10-16",
  "window": [
-  "2026-10-08",
-  "2026-11-05"
+  "2026-10-09",
+  "2026-11-06"
  ],
  "brevard_meetings": [
   {
@@ -72,16 +72,6 @@
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8254837&GUID=5A951D3E-0B10-4111-AFD9-EFE785ED33E1&Options=&Search="
     }
    ]
-  },
-  {
-   "county": "Brevard",
-   "body": "Transportation Planning Office",
-   "date": "2026-10-08",
-   "time": "1:30 PM",
-   "where": "1100 Rockledge Blvd, Rockledge",
-   "detail": null,
-   "agenda_pdf": null,
-   "items": []
   }
  ],
  "tampa_news": [
@@ -96,17 +86,24 @@
  "tampa_notices": [
   {
    "city": "Tampa",
-   "title": "Notice of City Council QJ Evening Meeting",
-   "url": "https://www.tampa.gov/document/notice-city-council-qj-evening-meeting-10-08-2026-195846",
-   "date": "2026-10-08",
-   "kind": "quasi-judicial (zoning) hearing"
-  },
-  {
-   "city": "Tampa",
    "title": "Notice of Public Meeting City Council Regular Agenda",
    "url": "https://www.tampa.gov/document/notice-public-meeting-10-15-2026-city-council-regular-agenda-196276",
    "date": "2026-10-15",
    "kind": "council notice"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of Public Meeting Tampa City Council Workshop Agenda",
+   "url": "https://www.tampa.gov/document/notice-public-meeting-tampa-city-council-workshop-agenda-october-22-2026-196536",
+   "date": null,
+   "kind": "council notice"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of Public Meeting Tampa City Council Evening Meeting Quasi-Judicial & Land Use Hearings",
+   "url": "https://www.tampa.gov/document/notice-public-meeting-tampa-city-council-evening-meeting-quasi-judicial-land-use-2",
+   "date": null,
+   "kind": "quasi-judicial (zoning) hearing"
   }
  ],
  "hillsborough_links": [
