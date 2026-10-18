@@ -73,7 +73,11 @@ main{min-width:0}
 .doc .sub{text-align:center;margin:0 0 4px;font-size:14.5px}
 .doc .sub.small{font-size:13px;color:var(--muted)}
 .doc h3{font:700 15.5px/1.3 var(--serif);margin:26px 0 6px;text-wrap:balance}
-.doc h3.sec{margin-top:22px}
+.doc h3.sec{display:inline;margin:0}
+.doc h3.sec::before{content:"";display:block;height:12px}
+.doc h3.sec + p{display:inline}
+.doc h3.sec + p::after{content:"";display:block;height:10px}
+.doc .add > h3.sec::before{height:0}
 .doc h4{font:600 15.5px/1.3 var(--serif);margin:16px 0 4px}
 .doc p{margin:0 0 10px}
 .doc .caps{text-transform:uppercase}
@@ -563,7 +567,7 @@ Emergency Maintenance: Text/Call <span class="f" data-k="landlordPhone"></span> 
 <p>Within <span class="d" data-d="n:estoppelDays"></span> days after written request from Landlord or any prospective purchaser or lender of Landlord, Leaseholder shall sign and return a written estoppel certificate confirming, as of its date: the Commencement date and Term; the current monthly Rent and the date through which Rent has been paid; the amount of the Security Deposit held; that this Agreement is unmodified and in full force and effect (or stating any modifications); that there is no prepaid Rent beyond the current month; that no side agreements, oral or written, exist (or describing any claimed); and that Landlord is not in default under this Agreement (or stating any claimed default). Leaseholder's failure to return the certificate within that period is conclusive, as against Leaseholder and anyone claiming through Leaseholder, that the facts stated in the certificate as prepared by Landlord are true and that Landlord is not in default. Any purchaser or lender may rely on the certificate.</p>
 </div>
 
-<h3 class="sec">Signatures</h3>
+<h3>Signatures</h3>
 <p>Note: Notice(s) delivered to any Notice Address set forth below (or as later directed by Notice from Leaseholder) shall be considered delivery of Notice to all Leaseholders.</p>
 <p>IN WITNESS WHEREOF, the parties have entered into this Agreement as of the last date set forth below their respective signatures:</p>
 
