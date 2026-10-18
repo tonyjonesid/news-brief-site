@@ -69,6 +69,7 @@ nav button.on{color:var(--accent);border-top-color:var(--accent)}
   <div class="tile"><div class="v" id="tAhead">—</div><div class="k">On route ahead</div></div>
   <div class="tile"><div class="v" id="tEta">—</div><div class="k">ETA</div></div>
   <div class="tile"><div class="v" id="tFloor">—</div><div class="k">Charge $/mi</div></div>
+  <div class="tile"><div class="v" id="tFuel">—</div><div class="k">Fuel $/gal <span id="tFuelSrc"></span></div></div>
   <div class="tile"><div class="v" id="tToday">—</div><div class="k">Miles today</div></div>
 </div>
 
@@ -108,7 +109,7 @@ nav button.on{color:var(--accent);border-top-color:var(--accent)}
     <p class="small muted" style="margin-top:4px">Tap the mic and talk: "What's ahead?", "Nearest weigh station?", "How far to go?", "What should I charge?" Works without any AI key for those; add a Claude API key in Setup for anything else.</p>
     <div class="row" style="margin-top:8px"><input id="askIn" placeholder="Or type it" style="flex:1 1 200px"><button class="btn primary" id="btnAsk">Ask</button></div>
     <label class="row" style="flex-direction:row;align-items:center;gap:8px;margin-top:10px"><input type="checkbox" id="handsFree" style="width:auto"> Hands-free: keep listening, respond to "<span id="wakeWordLbl">hey truck</span>"</label>
-    <label class="row" style="flex-direction:row;align-items:center;gap:8px;margin-top:6px"><input type="checkbox" id="speakAlerts" style="width:auto" checked> Speak new accidents and closures on my route</label>
+    <label class="row" style="flex-direction:row;align-items:center;gap:8px;margin-top:6px"><input type="checkbox" id="speakAlerts" style="width:auto" checked> Speak new traffic on my route, ETA changes, and fuel price when I change state</label>
   </div>
   <div class="chat" id="chat"></div>
 </section>
@@ -153,6 +154,8 @@ nav button.on{color:var(--accent);border-top-color:var(--accent)}
     <div class="grid2" style="margin-top:8px">
       <label>Cost per mile before fuel ($)<input id="cBase" type="number" inputmode="decimal" step="0.01" value="1.35"></label>
       <label>Fuel price ($/gal)<input id="cFuel" type="number" inputmode="decimal" step="0.01" value="5.90"></label>
+      <label>Fuel type<select id="cType"><option value="d">Diesel</option><option value="g">Gasoline</option></select></label>
+      <label class="row" style="flex-direction:row;align-items:center;gap:8px;grid-column:1/-1"><input type="checkbox" id="cAuto" style="width:auto" checked> Use today's AAA average for the state I'm in (updated each morning)</label>
       <label>MPG<input id="cMpg" type="number" inputmode="decimal" step="0.1" value="9"></label>
       <label>Margin (%)<input id="cMargin" type="number" inputmode="decimal" value="15"></label>
     </div>
@@ -189,17 +192,29 @@ const haversine=(a,b)=>{const R=6371000,toR=x=>x*Math.PI/180;const dLat=toR(b.la
 const bearing=(a,b)=>{const toR=x=>x*Math.PI/180,toD=x=>x*180/Math.PI;const y=Math.sin(toR(b.lon-a.lon))*Math.cos(toR(b.lat));const x=Math.cos(toR(a.lat))*Math.sin(toR(b.lat))-Math.sin(toR(a.lat))*Math.cos(toR(b.lat))*Math.cos(toR(b.lon-a.lon));return (toD(Math.atan2(y,x))+360)%360};
 
 // ---------- settings ----------
-const DEF={kTom:"",kAnth:"",vLen:26,vHt:12.5,vWid:8.5,vWt:26000,vRad:20,vPoll:2,cBase:1.35,cFuel:5.90,cMpg:9,cMargin:15,vWake:"hey truck",vKeepAwake:true,speakAlerts:true};
+const DEF={kTom:"",kAnth:"",vLen:26,vHt:12.5,vWid:8.5,vWt:26000,vRad:20,vPoll:2,cBase:1.35,cFuel:5.90,cType:"d",cAuto:true,cMpg:9,cMargin:15,vWake:"hey truck",vKeepAwake:true,speakAlerts:true};
 let cfg={...DEF};
 try{ cfg={...DEF,...JSON.parse(localStorage.getItem("ll.cfg")||"{}")}; }catch(e){}
 function saveCfg(){ try{ localStorage.setItem("ll.cfg",JSON.stringify(cfg)); }catch(e){} }
-const CFG_IDS=["kTom","kAnth","vLen","vHt","vWid","vWt","vRad","vPoll","cBase","cFuel","cMpg","cMargin","vWake"];
-function loadForm(){ for(const k of CFG_IDS) $(k).value=cfg[k]; $("vKeepAwake").checked=!!cfg.vKeepAwake; $("speakAlerts").checked=!!cfg.speakAlerts; $("wakeWordLbl").textContent=cfg.vWake; $("tRad").textContent=cfg.vRad; }
-function readForm(){ for(const k of CFG_IDS) cfg[k]= typeof DEF[k]==="number"?num($(k).value,DEF[k]):$(k).value.trim(); cfg.vKeepAwake=$("vKeepAwake").checked; cfg.speakAlerts=$("speakAlerts").checked; saveCfg(); loadForm(); renderFloor(); }
+const CFG_IDS=["kTom","kAnth","vLen","vHt","vWid","vWt","vRad","vPoll","cBase","cFuel","cType","cMpg","cMargin","vWake"];
+function loadForm(){ for(const k of CFG_IDS) $(k).value=cfg[k]; $("vKeepAwake").checked=!!cfg.vKeepAwake; $("speakAlerts").checked=!!cfg.speakAlerts; $("cAuto").checked=!!cfg.cAuto; $("wakeWordLbl").textContent=cfg.vWake; $("tRad").textContent=cfg.vRad; }
+function readForm(){ for(const k of CFG_IDS) cfg[k]= typeof DEF[k]==="number"?num($(k).value,DEF[k]):$(k).value.trim(); cfg.vKeepAwake=$("vKeepAwake").checked; cfg.speakAlerts=$("speakAlerts").checked; cfg.cAuto=$("cAuto").checked; saveCfg(); loadForm(); applyFuel(false); renderFloor(); }
 $("btnSaveSetup").onclick=()=>{ readForm(); toast("Saved"); if(pos) pollIncidents(true); };
 $("speakAlerts").onchange=()=>{ cfg.speakAlerts=$("speakAlerts").checked; saveCfg(); };
 const floor=()=>{ const all=num(cfg.cBase)+num(cfg.cFuel)/Math.max(0.1,num(cfg.cMpg)); return {all,charge:all*(1+num(cfg.cMargin)/100)}; };
-function renderFloor(){ $("tFloor").textContent="$"+floor().charge.toFixed(2); }
+function renderFloor(){ $("tFloor").textContent="$"+floor().charge.toFixed(2); $("tFuel").textContent="$"+num(cfg.cFuel).toFixed(2); $("tFuelSrc").textContent= fuelFeed&&cfg.cAuto&&fuelFeed.states?.[state]?`AAA ${state}`:"manual"; }
+
+// ---------- fuel feed (fuel.json written each morning by the scheduled task) ----------
+let fuelFeed=null, fuelAnnounced="";
+async function loadFuelFeed(){ try{ const r=await fetch("fuel.json?t="+Date.now(),{cache:"no-store"}); if(r.ok){ fuelFeed=await r.json(); applyFuel(false); } }catch(e){} }
+function applyFuel(announce){
+  if(!cfg.cAuto||!fuelFeed||!state) { renderFloor(); return; }
+  const st=fuelFeed.states?.[state]; if(!st) { renderFloor(); return; }
+  const price=num(st[cfg.cType||"d"]); if(!(price>0)) return;
+  const changed=Math.abs(price-num(cfg.cFuel))>0.005; cfg.cFuel=+price.toFixed(2); saveCfg(); $("cFuel").value=cfg.cFuel; renderFloor();
+  if(announce && fuelAnnounced!==state){ fuelAnnounced=state; const f=floor(); const m=`${state} ${cfg.cType==="g"?"gas":"diesel"} average ${price.toFixed(2)}. Charge at least ${f.charge.toFixed(2)} a mile.`; toast(m); if(cfg.speakAlerts) speak(m); }
+  else if(changed) toast(`Fuel set to ${state} average $${price.toFixed(2)}`);
+}
 
 // ---------- TomTom ----------
 const TT="https://api.tomtom.com";
@@ -246,10 +261,11 @@ function onFix(p){
   if(!stateAt || now-stateAt.t>120000 || haversine(stateAt,pos)>3*MI) lookupState();
   if(!lastPoll || now-lastPoll>cfg.vPoll*60000) pollIncidents();
   if(route) updateEta();
+  stations.forEach(s=>s.dist=haversine(pos,s.p)/MI); stationWatch(); if(route) autoStations();
 }
 async function lookupState(){
   stateAt={lat:pos.lat,lon:pos.lon,t:Date.now()};
-  try{ const r=await tt(`/search/2/reverseGeocode/${pos.lat},${pos.lon}.json`,{returnSpeedLimit:false}); const a=r.addresses?.[0]?.address; const st=a?.countrySubdivisionCode||a?.countrySubdivision||""; const road=a?.streetName||a?.routeNumbers?.[0]||""; if(st&&st!==state){ state=st.replace(/^US-/,""); toast("Now in "+state); } $("tState").textContent=state||"—"; pos.road=road; }catch(e){ if(e.message==="no_key") $("tState").textContent="key?"; }
+  try{ const r=await tt(`/search/2/reverseGeocode/${pos.lat},${pos.lon}.json`,{returnSpeedLimit:false}); const a=r.addresses?.[0]?.address; const st=a?.countrySubdivisionCode||a?.countrySubdivision||""; const road=a?.streetName||a?.routeNumbers?.[0]||""; if(st&&st.replace(/^US-/,"")!==state){ state=st.replace(/^US-/,""); toast("Now in "+state); applyFuel(true); } $("tState").textContent=state||"—"; pos.road=road; }catch(e){ if(e.message==="no_key") $("tState").textContent="key?"; }
   renderMiles();
 }
 
@@ -265,9 +281,11 @@ async function pollIncidents(force){
     incidents=(r.incidents||[]).map(i=>{ const g=i.geometry?.coordinates; const first=i.geometry?.type==="Point"?g:g?.[0]; const p={lat:first?.[1],lon:first?.[0]}; const pr=i.properties||{}; const cat=CAT[pr.iconCategory]||["•","Incident",""]; const dist=haversine(pos,p)/MI; const brg=bearing(pos,p); const ahead=pos.hdg!=null?Math.abs(((brg-pos.hdg+540)%360)-180)<60:null; return {id:pr.id||JSON.stringify(first),cat:pr.iconCategory,icon:cat[0],label:cat[1],cls:cat[2],desc:(pr.events||[]).map(e=>e.description).join("; "),road:(pr.roadNumbers||[]).join(", "),from:pr.from,to:pr.to,delay:pr.delay||0,len:pr.length||0,p,dist,ahead,onRoute:route?nearRoute(p):false,coords:g}; }).filter(i=>i.dist<=cfg.vRad).sort((a,b)=>a.dist-b.dist);
     $("incAsOf").textContent="checked "+new Date().toLocaleTimeString([],{hour:"numeric",minute:"2-digit"}); renderIncidents();
     // new critical alerts
-    const crit=incidents.filter(i=>(i.cat===1||i.cat===8||i.cat===11)&&(i.onRoute||i.ahead!==false)&&!seen.has(i.id));
-    for(const i of crit){ seen.add(i.id); const m=`${i.label} ${i.dist.toFixed(1)} miles ${i.onRoute?"ahead on your route":i.ahead?"ahead":"away"}${i.road?" on "+i.road:""}${i.delay?", "+Math.round(i.delay/60)+" min delay":""}`; showBanner(m); if(cfg.speakAlerts) speak(m); }
+    const critical=i=>i.cat===1||i.cat===8||i.cat===11;
+    const fresh=incidents.filter(i=>!seen.has(i.id)&&( (critical(i)&&(i.onRoute||i.ahead!==false)) || (i.onRoute&&(i.delay>=300||i.cat===7||i.cat===6)) ));
+    if(fresh.length){ const say=fresh.slice(0,3).map(i=>`${i.label} ${i.dist.toFixed(1)} miles ${i.onRoute?"ahead on your route":i.ahead?"ahead":"away"}${i.road?" on "+i.road:""}${i.delay?", "+Math.round(i.delay/60)+" minute delay":""}`).join(". "); const m=(fresh.length>3?`${fresh.length} new on your route. `:"")+say; showBanner(m); if(cfg.speakAlerts) speak(m); }
     incidents.forEach(i=>seen.add(i.id));
+    if(route && route.remS){ const prev=route.spokenRemS; if(prev && route.remS-prev>600){ const m=`Traffic ahead. ETA slipped ${Math.round((route.remS-prev)/60)} minutes, now ${$("tEta").textContent}.`; showBanner(m); if(cfg.speakAlerts) speak(m); route.spokenRemS=route.remS; } else if(!prev) route.spokenRemS=route.remS; }
   }catch(e){ $("incAsOf").textContent = e.message==="no_key"?"add TomTom key":"traffic unavailable ("+e.message.slice(0,40)+")"; }
 }
 function renderIncidents(){
@@ -293,7 +311,7 @@ $("btnRoute").onclick=async()=>{
     route={dest,pts,len:rt.summary.lengthInMeters,time:rt.summary.travelTimeInSeconds,delay:rt.summary.trafficDelayInSeconds||0,at:Date.now(),instructions:(rt.guidance?.instructions||[]).map(i=>i.message).filter(Boolean)};
     if(routeLine) map.removeLayer(routeLine); routeLine=L.polyline(pts.map(p=>[p.lat,p.lon]),{color:"#49b874",weight:5,opacity:.85}).addTo(map); map.fitBounds(routeLine.getBounds(),{padding:[20,20]}); follow=false; setTimeout(()=>follow=true,20000);
     try{ localStorage.setItem("ll.dest",q); }catch(e){}
-    updateEta(); incidents.forEach(i=>i.onRoute=nearRoute(i.p)); renderIncidents(); pollIncidents(true);
+    updateEta(); incidents.forEach(i=>i.onRoute=nearRoute(i.p)); renderIncidents(); pollIncidents(true); stationsAt=null; autoStations();
     speak(`Route set. ${Math.round(route.len/MI)} miles, about ${fmtDur(route.time)}${route.delay>300?", including "+Math.round(route.delay/60)+" minutes of traffic":""}.`);
   }catch(e){ $("routeInfo").innerHTML=`<p class="small" style="color:var(--bad)">Couldn't route: ${H(e.message==="no_key"?"add your TomTom key in Setup":e.message)}</p>`; }
 };
@@ -302,7 +320,7 @@ const fmtDur=s=>{const h=Math.floor(s/3600),m=Math.round((s%3600)/60);return h?`
 function updateEta(){ if(!route||!pos) return; let best=0,bd=1e9; for(let k=0;k<route.pts.length;k+=2){ const d=haversine(route.pts[k],pos); if(d<bd){bd=d;best=k;} } let rem=0; for(let k=best;k<route.pts.length-1;k++) rem+=haversine(route.pts[k],route.pts[k+1]); route.remMi=rem/MI; const spd=pos.spd&&pos.spd>20?pos.spd:Math.max(35,route.len/MI/(route.time/3600)); route.remS=rem/MI/spd*3600; const eta=new Date(Date.now()+route.remS*1000); $("tEta").textContent=eta.toLocaleTimeString([],{hour:"numeric",minute:"2-digit"}); const f=floor(); $("routeInfo").innerHTML=`<div><b>${H(route.dest.name)}</b></div><div class="small">${Math.round(route.len/MI)} mi total · <b>${route.remMi.toFixed(0)} mi left</b> · ETA ${eta.toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}${route.delay?` · traffic +${Math.round(route.delay/60)} min`:""}</div><div class="small muted">Quote for this run at your floor: $${(f.charge*route.len/MI).toFixed(0)} (${f.charge.toFixed(2)}/mi)</div>`; }
 
 // ---------- stations & fuel ----------
-let stations=[]; let reports; try{ reports=JSON.parse(localStorage.getItem("ll.reports")||"{}"); }catch(e){ reports={}; }
+let stations=[], stationsAt=null, stationWarned=new Set(); let reports; try{ reports=JSON.parse(localStorage.getItem("ll.reports")||"{}"); }catch(e){ reports={}; }
 async function poi(query,target,kind){
   if(!pos) return toast("Waiting for GPS"); $(target).innerHTML=`<p class="small muted">Searching…</p>`;
   try{ const r=await tt(`/search/2/poiSearch/${encodeURIComponent(query)}.json`,{lat:pos.lat,lon:pos.lon,radius:80000,limit:20,countrySet:"US"}); const list=(r.results||[]).map(x=>({id:x.id,name:x.poi?.name||query,addr:x.address?.freeformAddress||"",p:{lat:x.position.lat,lon:x.position.lon},dist:haversine(pos,x.position&&{lat:x.position.lat,lon:x.position.lon})/MI})).sort((a,b)=>a.dist-b.dist);
@@ -311,6 +329,8 @@ async function poi(query,target,kind){
   }catch(e){ $(target).innerHTML=`<p class="small" style="color:var(--bad)">${H(e.message==="no_key"?"Add your TomTom key in Setup.":e.message)}</p>`; }
 }
 $("btnStations").onclick=()=>poi("weigh station","stationList","st");
+async function autoStations(){ if(!pos||!cfg.kTom) return; if(stationsAt && haversine(stationsAt,pos)<25*MI) return; stationsAt={lat:pos.lat,lon:pos.lon}; await poi("weigh station","stationList","st"); }
+function stationWatch(){ if(!pos||!stations.length) return; for(const s of stations){ const d=haversine(pos,s.p)/MI; if(d>6||stationWarned.has(s.id)) continue; const brg=bearing(pos,s.p); const ahead=pos.hdg!=null?Math.abs(((brg-pos.hdg+540)%360)-180)<50:(route?nearRoute(s.p):false); if(!ahead) continue; stationWarned.add(s.id); const rep=reports[s.id]; const m=`Weigh station in ${d.toFixed(0)||"under 1"} miles, ${s.name}${rep?". Your last report: "+rep.s+" "+Math.round((Date.now()-rep.t)/3600000)+" hours ago":". No status on file"}.`; showBanner(m); if(cfg.speakAlerts) speak(m); } }
 $("btnFuelStops").onclick=()=>poi("truck stop","fuelList","fuel");
 $("stationList").addEventListener("click",e=>{ const b=e.target.closest("[data-rep]"); if(!b) return; reports[b.dataset.id]={s:b.dataset.rep,t:Date.now()}; try{ localStorage.setItem("ll.reports",JSON.stringify(reports)); }catch(x){} toast("Logged "+b.dataset.rep); $("btnStations").click(); });
 
@@ -369,7 +389,7 @@ try{ const qs=new URLSearchParams(location.search); const k=qs.get("tomtom"); if
 loadForm(); renderFloor(); initMap(); renderMiles();
 try{ $("destIn").value=localStorage.getItem("ll.dest")||""; }catch(e){}
 if(!cfg.kTom){ showTab("setup"); $("setupStatus").textContent="Paste your TomTom key, then Save."; }
-startGps();
+startGps(); loadFuelFeed(); setInterval(loadFuelFeed,6*3600*1000);
 if("serviceWorker" in navigator){ navigator.serviceWorker.register("sw.js").catch(()=>{}); }
 document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="visible"&&pos) pollIncidents(true); });
 })();
