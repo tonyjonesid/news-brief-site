@@ -1,8 +1,8 @@
 {
- "asof": "2026-10-19",
+ "asof": "2026-10-20",
  "window": [
-  "2026-10-12",
-  "2026-11-09"
+  "2026-10-13",
+  "2026-11-10"
  ],
  "brevard_meetings": [
   {
@@ -47,29 +47,6 @@
      "type": "Public Hearing",
      "title": "Baratta Family Trust (John Campbell) requests two variances of Chapter 62, Article VI, Brevard County Code, for a swimming pool screen enclosure and the principal building in an RU-1-11 zoning classification. (26V00062) (Tax Account 2431991) (District 2)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256090&GUID=B70953EB-052D-44F1-B749-B7519F8F3A3E&Options=&Search="
-    }
-   ]
-  },
-  {
-   "county": "Brevard",
-   "body": "Planning and Zoning Board / Local Planning Agency",
-   "date": "2026-10-12",
-   "time": "3:00 PM",
-   "where": "Commission Room",
-   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1408793&GUID=220FFB7D-0A63-471E-9E84-7D2DEB5EAF67&Options=info|&Search=",
-   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1408793&GUID=220FFB7D-0A63-471E-9E84-7D2DEB5EAF67",
-   "items": [
-    {
-     "no": "H.1.",
-     "type": "Public Hearing",
-     "title": "David S. Minnick and Norman D. White request a zoning classification change from RU-1-13 to AU with a BDP (26Z00035) (Tax Account 2103946) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8254836&GUID=E2F23740-5B81-4968-AEBF-324379023C14&Options=&Search="
-    },
-    {
-     "no": "H.2.",
-     "type": "Public Hearing",
-     "title": "Thankachan and Siji Joseph (Greg Jean-Denis) request a zoning classification change from BU-1 with a BDP to BU-1 and removal of the existing BDP and addition of a new BDP (26Z00030) (Tax Account 2411235) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8254837&GUID=5A951D3E-0B10-4111-AFD9-EFE785ED33E1&Options=&Search="
     }
    ]
   }
