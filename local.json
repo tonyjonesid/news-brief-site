@@ -1,8 +1,8 @@
 {
- "asof": "2026-10-21",
+ "asof": "2026-10-22",
  "window": [
-  "2026-10-14",
-  "2026-11-11"
+  "2026-10-15",
+  "2026-11-12"
  ],
  "brevard_meetings": [
   {
@@ -14,52 +14,9 @@
    "detail": null,
    "agenda_pdf": null,
    "items": []
-  },
-  {
-   "county": "Brevard",
-   "body": "Board of Adjustment",
-   "date": "2026-10-14",
-   "time": "1:30 PM",
-   "where": "Commission Room",
-   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1426878&GUID=D00BACB3-852E-48CE-9658-D23F43E43D12&Options=info|&Search=",
-   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1426878&GUID=D00BACB3-852E-48CE-9658-D23F43E43D12",
-   "items": [
-    {
-     "no": "H.1.",
-     "type": "Public Hearing",
-     "title": "Smith Tima requests three variances of Chapter 62, Article VI, Brevard County Code, for the lot width, the lot depth, and the lot size in a TR-1 zoning classification. (26V00054) (Tax Account 2317179) (District 1) THIS ITEM WAS TABLED AT THE 9-16-2026 BOA MEETING",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256091&GUID=BEBFB875-32A0-407C-8237-3C05FA5FD076&Options=&Search="
-    },
-    {
-     "no": "H.2.",
-     "type": "Public Hearing",
-     "title": "Gail Diffendorfer Revocable Trust (Gail Diffendorfer) requests a variance of Chapter 62, Article VI, Brevard County Code, for an accessory structure in an RU-1-9 zoning classification. (26V00059) (Tax Account 2320224) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256088&GUID=695CBF66-B319-4677-8565-75DC4EB8F3A5&Options=&Search="
-    },
-    {
-     "no": "H.3.",
-     "type": "Public Hearing",
-     "title": "Afimi Corp. Inc. and Cecil Miller (Russell Fasnacht) request a variance of Chapter 62, Article VI, Brevard County Code, for a principal structure in a TR-1 zoning classification. (26V00060) (Tax Account 2103142) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256089&GUID=DB8E9C55-2094-4B58-8168-76C378FC6A45&Options=&Search="
-    },
-    {
-     "no": "H.4.",
-     "type": "Public Hearing",
-     "title": "Baratta Family Trust (John Campbell) requests two variances of Chapter 62, Article VI, Brevard County Code, for a swimming pool screen enclosure and the principal building in an RU-1-11 zoning classification. (26V00062) (Tax Account 2431991) (District 2)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8256090&GUID=B70953EB-052D-44F1-B749-B7519F8F3A3E&Options=&Search="
-    }
-   ]
   }
  ],
- "tampa_news": [
-  {
-   "city": "Tampa",
-   "title": "Tampa CRA Awards First Commercial Design Grant!",
-   "url": "https://www.tampa.gov/news/2026-10/tampa-cra-awards-first-commercial-design-grant-196426",
-   "date": "2026-10-14",
-   "words": 319
-  }
- ],
+ "tampa_news": [],
  "tampa_notices": [
   {
    "city": "Tampa",
