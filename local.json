@@ -1,8 +1,8 @@
 {
- "asof": "2026-10-22",
+ "asof": "2026-10-23",
  "window": [
-  "2026-10-15",
-  "2026-11-12"
+  "2026-10-16",
+  "2026-11-13"
  ],
  "brevard_meetings": [
   {
@@ -20,24 +20,17 @@
  "tampa_notices": [
   {
    "city": "Tampa",
-   "title": "Notice of Public Meeting City Council Regular Agenda",
-   "url": "https://www.tampa.gov/document/notice-public-meeting-10-15-2026-city-council-regular-agenda-196276",
-   "date": "2026-10-15",
-   "kind": "council notice"
-  },
-  {
-   "city": "Tampa",
-   "title": "Notice of Public Meeting Tampa City Council Workshop Agenda",
-   "url": "https://www.tampa.gov/document/notice-public-meeting-tampa-city-council-workshop-agenda-october-22-2026-196536",
-   "date": null,
-   "kind": "council notice"
-  },
-  {
-   "city": "Tampa",
    "title": "Notice of Public Meeting Tampa City Council Evening Meeting Quasi-Judicial & Land Use Hearings",
    "url": "https://www.tampa.gov/document/notice-public-meeting-tampa-city-council-evening-meeting-quasi-judicial-land-use-2",
    "date": null,
    "kind": "quasi-judicial (zoning) hearing"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of Special Call Meeting re Rays CBA",
+   "url": "https://www.tampa.gov/document/notice-special-call-meeting-re-rays-cba-10-29-2026-196941",
+   "date": "2026-10-29",
+   "kind": "council notice"
   }
  ],
  "hillsborough_links": [
