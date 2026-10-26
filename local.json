@@ -1,10 +1,20 @@
 {
- "asof": "2026-10-23",
+ "asof": "2026-10-26",
  "window": [
-  "2026-10-16",
-  "2026-11-13"
+  "2026-10-19",
+  "2026-11-16"
  ],
  "brevard_meetings": [
+  {
+   "county": "Brevard",
+   "body": "Planning and Zoning Board / Local Planning Agency",
+   "date": "2026-11-16",
+   "time": "3:00 PM",
+   "where": "Commission Room",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
   {
    "county": "Brevard",
    "body": "Brevard County Board of County Commissioners",
