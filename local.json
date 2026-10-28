@@ -1,10 +1,20 @@
 {
- "asof": "2026-10-27",
+ "asof": "2026-10-28",
  "window": [
-  "2026-10-20",
-  "2026-11-17"
+  "2026-10-21",
+  "2026-11-18"
  ],
  "brevard_meetings": [
+  {
+   "county": "Brevard",
+   "body": "Board of Adjustment",
+   "date": "2026-11-18",
+   "time": "1:30 PM",
+   "where": "Commission Room",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
   {
    "county": "Brevard",
    "body": "Planning and Zoning Board / Local Planning Agency",
@@ -28,13 +38,6 @@
  ],
  "tampa_news": [],
  "tampa_notices": [
-  {
-   "city": "Tampa",
-   "title": "Notice of Public Meeting Tampa City Council Evening Meeting Quasi-Judicial & Land Use Hearings",
-   "url": "https://www.tampa.gov/document/notice-public-meeting-tampa-city-council-evening-meeting-quasi-judicial-land-use-2",
-   "date": null,
-   "kind": "quasi-judicial (zoning) hearing"
-  },
   {
    "city": "Tampa",
    "title": "Notice of Special Call Meeting re Rays CBA",
