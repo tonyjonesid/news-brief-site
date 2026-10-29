@@ -1,8 +1,8 @@
 {
- "asof": "2026-10-28",
+ "asof": "2026-10-29",
  "window": [
-  "2026-10-21",
-  "2026-11-18"
+  "2026-10-22",
+  "2026-11-19"
  ],
  "brevard_meetings": [
   {
@@ -36,13 +36,28 @@
    "items": []
   }
  ],
- "tampa_news": [],
+ "tampa_news": [
+  {
+   "city": "Tampa",
+   "title": "City of Tampa Surpasses 10,000 Goal for Affordable Housing Units",
+   "url": "https://www.tampa.gov/news/2026-10/city-tampa-surpasses-10000-goal-affordable-housing-units-197211",
+   "date": "2026-10-28",
+   "words": 491
+  }
+ ],
  "tampa_notices": [
   {
    "city": "Tampa",
    "title": "Notice of Special Call Meeting re Rays CBA",
    "url": "https://www.tampa.gov/document/notice-special-call-meeting-re-rays-cba-10-29-2026-196941",
    "date": "2026-10-29",
+   "kind": "council notice"
+  },
+  {
+   "city": "Tampa",
+   "title": "Notice of Public Meeting City Council Regular Agenda",
+   "url": "https://www.tampa.gov/document/notice-public-meeting-11-05-2026-city-council-regular-agenda-197191",
+   "date": "2026-11-05",
    "kind": "council notice"
   }
  ],
