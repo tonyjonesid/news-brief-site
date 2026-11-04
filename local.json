@@ -1,8 +1,8 @@
 {
- "asof": "2026-11-03",
+ "asof": "2026-11-04",
  "window": [
-  "2026-10-27",
-  "2026-11-24"
+  "2026-10-28",
+  "2026-11-25"
  ],
  "brevard_meetings": [
   {
@@ -11,8 +11,8 @@
    "date": "2026-11-18",
    "time": "1:30 PM",
    "where": "Commission Room",
-   "detail": null,
-   "agenda_pdf": null,
+   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1445134&GUID=DB909BB7-A077-4166-99AD-67D89ED4F453&Options=info|&Search=",
+   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1445134&GUID=DB909BB7-A077-4166-99AD-67D89ED4F453",
    "items": []
   },
   {
@@ -25,37 +25,37 @@
    "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1408795&GUID=A207BFEA-D717-4B92-A37B-31F461B4DEBF",
    "items": [
     {
-     "no": "",
+     "no": "H.1.",
      "type": "Public Hearing",
      "title": "Bernard B Burklund Jr., Francis Kay Burklund and Janis Lucas (Blair Knighting) are requesting a Small-Scale Comprehensive Plan Amendment (26S.10) to change the Future Land Use designation from RES 15 and PI to CC. (26SS00010) (Tax Account 2217394) (District 1)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306625&GUID=5523F727-9D00-4B26-8BF2-2CA95E59CF4D&Options=&Search="
     },
     {
-     "no": "",
+     "no": "H.2.",
      "type": "Public Hearing",
      "title": "Bernard B Burklund Jr., Francis Kay Burklund and Janis Lucas (Blair Knighting) are requesting a zoning classification change from RU-2-10(5) (Medium-Density Multiple-Family Residential) and PIP (Planned Industrial Park) to BU-1 (General Retail Commercial) (26Z00037) (Tax Account 2217394) (District 1",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306626&GUID=B484B0AF-D547-4EB5-ADAC-8AD3C0CDD223&Options=&Search="
     },
     {
-     "no": "",
+     "no": "H.4.",
      "type": "Public Hearing",
      "title": "Jacob Aaron and Sierra Daniella Rosenthal request a Small-Scale Comprehensive Plan Amendment (26S.11) to change the Future Land Use designation from PI to RES 4. (26SS00011) (Tax Account 2411620) (District 2)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306628&GUID=29F3758B-912D-41C8-9A92-6622DEE28FFB&Options=&Search="
     },
     {
-     "no": "",
+     "no": "H.5.",
      "type": "Public Hearing",
      "title": "Jacob Aaron and Sierra Daniella Rosenthal request a zoning classification change from PIP to SR. (26Z00040) (Tax Account 2411620) (District 2)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306629&GUID=FDEA1C8E-0EB8-4F3A-BC36-4656206DB892&Options=&Search="
     },
     {
-     "no": "",
+     "no": "H.6.",
      "type": "Public Hearing",
      "title": "Jerome C & Cheryl Cicoli are requesting a zoning classification change from BU-1 to SR. (26Z00042) (Tax Account 3008103) (District 3)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306630&GUID=E0D44EEC-2C39-436B-8827-C0E7B6B693A3&Options=&Search="
     },
     {
-     "no": "",
+     "no": "H.7.",
      "type": "Public Hearing",
      "title": "Nancy E. Ruiz (Michael Coop, Sr.) is requesting a zoning classification change from AU to RR-1. (26Z00043) (Tax Account 2002158) (District 1)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306631&GUID=24C773F4-78C6-4134-857E-8D6A3F0F5F6F&Options=&Search="
@@ -96,13 +96,6 @@
   }
  ],
  "tampa_notices": [
-  {
-   "city": "Tampa",
-   "title": "Notice of Special Call Meeting re Rays CBA",
-   "url": "https://www.tampa.gov/document/notice-special-call-meeting-re-rays-cba-10-29-2026-196941",
-   "date": "2026-10-29",
-   "kind": "council notice"
-  },
   {
    "city": "Tampa",
    "title": "Notice of Public Meeting City Council Regular Agenda",
