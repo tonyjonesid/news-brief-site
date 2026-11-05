@@ -1,8 +1,8 @@
 {
- "asof": "2026-11-04",
+ "asof": "2026-11-05",
  "window": [
-  "2026-10-28",
-  "2026-11-25"
+  "2026-10-29",
+  "2026-11-26"
  ],
  "brevard_meetings": [
   {
@@ -67,7 +67,7 @@
    "body": "Brevard County Board of County Commissioners",
    "date": "2026-11-05",
    "time": "5:00 PM",
-   "where": "Commission Chambers Zoning",
+   "where": "Commission Chambers Zoning - Cancelled",
    "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1350563&GUID=92023CFD-8F72-47E5-A602-B3DA13D2442F&Options=info|&Search=",
    "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1350563&GUID=92023CFD-8F72-47E5-A602-B3DA13D2442F",
    "items": [
@@ -86,15 +86,7 @@
    ]
   }
  ],
- "tampa_news": [
-  {
-   "city": "Tampa",
-   "title": "City of Tampa Surpasses 10,000 Goal for Affordable Housing Units",
-   "url": "https://www.tampa.gov/news/2026-10/city-tampa-surpasses-10000-goal-affordable-housing-units-197211",
-   "date": "2026-10-28",
-   "words": 491
-  }
- ],
+ "tampa_news": [],
  "tampa_notices": [
   {
    "city": "Tampa",
