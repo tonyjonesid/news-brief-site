@@ -1,8 +1,8 @@
 {
- "asof": "2026-11-12",
+ "asof": "2026-11-13",
  "window": [
-  "2026-11-05",
-  "2026-12-03"
+  "2026-11-06",
+  "2026-12-04"
  ],
  "brevard_meetings": [
   {
@@ -13,7 +13,62 @@
    "where": "Commission Room",
    "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1445134&GUID=DB909BB7-A077-4166-99AD-67D89ED4F453&Options=info|&Search=",
    "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1445134&GUID=DB909BB7-A077-4166-99AD-67D89ED4F453",
-   "items": []
+   "items": [
+    {
+     "no": "H.1.",
+     "type": "Public Hearing",
+     "title": "Pablo G. and Ana M. DeLeon (Sabrina Dieguez) requests a variance of Chapter 62, Article VI, Brevard County Code, for the lot size in a proposed AU zoning classification, the parcel is currently zoned RR-1 zoning classification. (26V00056) (Tax Account 2323958) (District 2)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317774&GUID=FC2A77E1-0809-4B61-8B66-00F471D74C5C&Options=&Search="
+    },
+    {
+     "no": "H.2.",
+     "type": "Public Hearing",
+     "title": "Anthony F. and Beth Marie Meggs request two variances of Chapter 62, Article VI, Brevard County Code, for a proposed dock in an RU-2-10 zoning classification. (26V00055) (Tax Account 2615555) (District 2)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317818&GUID=C04FF893-5143-4590-A394-9C89E32675BE&Options=&Search="
+    },
+    {
+     "no": "H.3.",
+     "type": "Public Hearing",
+     "title": "Angelo Armenteros and Autumn Lee Evans request a variance of Chapter 62, Article VI, Brevard County Code, for an accessory structure in an RR-1 zoning classification. (26V00061) (Tax Account 2701298) (District 4)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317819&GUID=782ED0F0-2CBE-4403-93FD-CE13522F7E34&Options=&Search="
+    },
+    {
+     "no": "H.4.",
+     "type": "Public Hearing",
+     "title": "William M. and Lang L. Alexander (Tom Brooks) request a variance of Chapter 62, Article VI, Brevard County Code, for a proposed dock in a PUD zoning classification. (26V00065) (Tax Account 2413043) (District 2)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317820&GUID=8CED1EFB-F3B3-47CC-8B1E-01E9095198E4&Options=&Search="
+    },
+    {
+     "no": "H.5.",
+     "type": "Public Hearing",
+     "title": "Warren K. Savage requests three variances of Chapter 62, Article VI, Brevard County Code, for accessory structures in an RR-1 zoning classification. (26V00068) (Tax Account 2100748) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317821&GUID=CB883DF5-6A1A-40A2-9C78-4FD028C25502&Options=&Search="
+    },
+    {
+     "no": "H.6.",
+     "type": "Public Hearing",
+     "title": "Danielle and Liam Lohrenz request a variance of Chapter 62, Article VI, Brevard County Code, for the lot width in a proposed RRMH-1 zoning classification, the property is currently zoned GU. (26V00070) (Tax Account 2000694) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317822&GUID=409D981F-F9EC-4F57-A901-AE3E884CDEE4&Options=&Search="
+    },
+    {
+     "no": "H.7.",
+     "type": "Public Hearing",
+     "title": "PRM Restore/Brevard LLC (Hassan Kamal) requests a variance of Chapter 62, Article VI, Brevard County Code, for the fence height in a PUD zoning classification. (26V00071) (Tax Account 3040110) (District 4)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317823&GUID=C9927765-5B5C-4180-8BD8-EBA6E5C15E60&Options=&Search="
+    },
+    {
+     "no": "H.8.",
+     "type": "Public Hearing",
+     "title": "Baratta Family Trust (John Campbell) requests two variances of Chapter 62, Article VI, Brevard County Code, for a swimming pool screen enclosure and the principal building in an RU-1-11 zoning classification. (26V00062) (Tax Account 2431991) (District 2)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317824&GUID=0DB6A52B-DEB3-4CB0-B46D-8C40FF96E06C&Options=&Search="
+    },
+    {
+     "no": "H.9.",
+     "type": "Public Hearing",
+     "title": "Afimi Corp. Inc. and Cecil Miller (Russell Fasnacht) request a variance of Chapter 62, Article VI, Brevard County Code, for a principal structure in a TR-1 zoning classification (26V00073) (Tax Account 2103142) (District 1)",
+     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317825&GUID=7C696ACF-844D-4B9A-AEEC-7D1BE13C1F77&Options=&Search="
+    }
+   ]
   },
   {
    "county": "Brevard",
@@ -59,29 +114,6 @@
      "type": "Public Hearing",
      "title": "Nancy E. Ruiz (Michael Coop, Sr.) is requesting a zoning classification change from AU to RR-1. (26Z00043) (Tax Account 2002158) (District 1)",
      "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8306631&GUID=24C773F4-78C6-4134-857E-8D6A3F0F5F6F&Options=&Search="
-    }
-   ]
-  },
-  {
-   "county": "Brevard",
-   "body": "Brevard County Board of County Commissioners",
-   "date": "2026-11-05",
-   "time": "5:00 PM",
-   "where": "Commission Chambers Zoning - Cancelled",
-   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1350563&GUID=92023CFD-8F72-47E5-A602-B3DA13D2442F&Options=info|&Search=",
-   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1350563&GUID=92023CFD-8F72-47E5-A602-B3DA13D2442F",
-   "items": [
-    {
-     "no": "H.1.",
-     "type": "Public Hearing",
-     "title": "Donald S. Minnick and Norman D. White request a zoning classification change from RU-1-13 to AU with a BDP (26Z00035) (Tax Account 2103946) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8293851&GUID=5115C3F8-A653-4C26-A450-C01F45E46EB5&Options=&Search="
-    },
-    {
-     "no": "H.2.",
-     "type": "Public Hearing",
-     "title": "Thankachan and Siji Joseph (Greg Jean-Denis) request a zoning classification change from BU-1 with a BDP to BU-1 and removal of the existing BDP and addition of a new BDP (26Z00030) (Tax Account 2411235) (District 1) - The applicant has requested the application be continued to the December 10, 2026",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8293852&GUID=47A9B636-5C82-4106-A3A5-157E8F22534E&Options=&Search="
     }
    ]
   }
