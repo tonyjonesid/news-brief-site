@@ -1,10 +1,30 @@
 {
- "asof": "2026-11-18",
+ "asof": "2026-11-19",
  "window": [
-  "2026-11-11",
-  "2026-12-09"
+  "2026-11-12",
+  "2026-12-10"
  ],
  "brevard_meetings": [
+  {
+   "county": "Brevard",
+   "body": "Brevard County Board of County Commissioners",
+   "date": "2026-12-10",
+   "time": "5:00 PM",
+   "where": "Commission Chambers Zoning",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
+  {
+   "county": "Brevard",
+   "body": "Transportation Planning Office",
+   "date": "2026-12-10",
+   "time": "1:30 PM",
+   "where": "1100 Rockledge Blvd, Rockledge",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
   {
    "county": "Brevard",
    "body": "Board of Adjustment",
