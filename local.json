@@ -1,10 +1,20 @@
 {
- "asof": "2026-11-24",
+ "asof": "2026-11-25",
  "window": [
-  "2026-11-17",
-  "2026-12-15"
+  "2026-11-18",
+  "2026-12-16"
  ],
  "brevard_meetings": [
+  {
+   "county": "Brevard",
+   "body": "Board of Adjustment",
+   "date": "2026-12-16",
+   "time": "1:30 PM",
+   "where": "Commission Room",
+   "detail": null,
+   "agenda_pdf": null,
+   "items": []
+  },
   {
    "county": "Brevard",
    "body": "Brevard County Board of County Commissioners",
