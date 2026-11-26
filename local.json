@@ -1,8 +1,8 @@
 {
- "asof": "2026-11-25",
+ "asof": "2026-11-26",
  "window": [
-  "2026-11-18",
-  "2026-12-16"
+  "2026-11-19",
+  "2026-12-17"
  ],
  "brevard_meetings": [
   {
@@ -34,87 +34,15 @@
    "detail": null,
    "agenda_pdf": null,
    "items": []
-  },
-  {
-   "county": "Brevard",
-   "body": "Board of Adjustment",
-   "date": "2026-11-18",
-   "time": "1:30 PM",
-   "where": "Commission Room",
-   "detail": "https://brevardfl.legistar.com/MeetingDetail.aspx?ID=1445134&GUID=DB909BB7-A077-4166-99AD-67D89ED4F453&Options=info|&Search=",
-   "agenda_pdf": "https://brevardfl.legistar.com/View.ashx?M=A&ID=1445134&GUID=DB909BB7-A077-4166-99AD-67D89ED4F453",
-   "items": [
-    {
-     "no": "H.1.",
-     "type": "Public Hearing",
-     "title": "Pablo G. and Ana M. DeLeon (Sabrina Dieguez) requests a variance of Chapter 62, Article VI, Brevard County Code, for the lot size in a proposed AU zoning classification, the parcel is currently zoned RR-1 zoning classification. (26V00056) (Tax Account 2323958) (District 2)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317774&GUID=FC2A77E1-0809-4B61-8B66-00F471D74C5C&Options=&Search="
-    },
-    {
-     "no": "H.2.",
-     "type": "Public Hearing",
-     "title": "Anthony F. and Beth Marie Meggs request two variances of Chapter 62, Article VI, Brevard County Code, for a proposed dock in an RU-2-10 zoning classification. (26V00055) (Tax Account 2615555) (District 2)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317818&GUID=C04FF893-5143-4590-A394-9C89E32675BE&Options=&Search="
-    },
-    {
-     "no": "H.3.",
-     "type": "Public Hearing",
-     "title": "Angelo Armenteros and Autumn Lee Evans request a variance of Chapter 62, Article VI, Brevard County Code, for an accessory structure in an RR-1 zoning classification. (26V00061) (Tax Account 2701298) (District 4)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317819&GUID=782ED0F0-2CBE-4403-93FD-CE13522F7E34&Options=&Search="
-    },
-    {
-     "no": "H.4.",
-     "type": "Public Hearing",
-     "title": "William M. and Lang L. Alexander (Tom Brooks) request a variance of Chapter 62, Article VI, Brevard County Code, for a proposed dock in a PUD zoning classification. (26V00065) (Tax Account 2413043) (District 2)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317820&GUID=8CED1EFB-F3B3-47CC-8B1E-01E9095198E4&Options=&Search="
-    },
-    {
-     "no": "H.5.",
-     "type": "Public Hearing",
-     "title": "Warren K. Savage requests three variances of Chapter 62, Article VI, Brevard County Code, for accessory structures in an RR-1 zoning classification. (26V00068) (Tax Account 2100748) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317821&GUID=CB883DF5-6A1A-40A2-9C78-4FD028C25502&Options=&Search="
-    },
-    {
-     "no": "H.6.",
-     "type": "Public Hearing",
-     "title": "Danielle and Liam Lohrenz request a variance of Chapter 62, Article VI, Brevard County Code, for the lot width in a proposed RRMH-1 zoning classification, the property is currently zoned GU. (26V00070) (Tax Account 2000694) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317822&GUID=409D981F-F9EC-4F57-A901-AE3E884CDEE4&Options=&Search="
-    },
-    {
-     "no": "H.7.",
-     "type": "Public Hearing",
-     "title": "PRM Restore/Brevard LLC (Hassan Kamal) requests a variance of Chapter 62, Article VI, Brevard County Code, for the fence height in a PUD zoning classification. (26V00071) (Tax Account 3040110) (District 4)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317823&GUID=C9927765-5B5C-4180-8BD8-EBA6E5C15E60&Options=&Search="
-    },
-    {
-     "no": "H.8.",
-     "type": "Public Hearing",
-     "title": "Baratta Family Trust (John Campbell) requests two variances of Chapter 62, Article VI, Brevard County Code, for a swimming pool screen enclosure and the principal building in an RU-1-11 zoning classification. (26V00062) (Tax Account 2431991) (District 2)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317824&GUID=0DB6A52B-DEB3-4CB0-B46D-8C40FF96E06C&Options=&Search="
-    },
-    {
-     "no": "H.9.",
-     "type": "Public Hearing",
-     "title": "Afimi Corp. Inc. and Cecil Miller (Russell Fasnacht) request a variance of Chapter 62, Article VI, Brevard County Code, for a principal structure in a TR-1 zoning classification (26V00073) (Tax Account 2103142) (District 1)",
-     "link": "https://brevardfl.legistar.com/LegislationDetail.aspx?ID=8317825&GUID=7C696ACF-844D-4B9A-AEEC-7D1BE13C1F77&Options=&Search="
-    }
-   ]
   }
  ],
  "tampa_news": [],
  "tampa_notices": [
   {
    "city": "Tampa",
-   "title": "Notice of Special Call Meeting",
-   "url": "https://www.tampa.gov/document/notice-special-call-meeting-11172026-197806",
-   "date": null,
-   "kind": "council notice"
-  },
-  {
-   "city": "Tampa",
    "title": "Notice of Public Meeting",
-   "url": "https://www.tampa.gov/document/notice-public-meeting-11-19-2026-city-council-regular-agenda-197961",
-   "date": "2026-11-19",
+   "url": "https://www.tampa.gov/document/notice-public-meeting-12-03-2026-city-council-regular-agenda-198426",
+   "date": "2026-12-03",
    "kind": "council notice"
   }
  ],
